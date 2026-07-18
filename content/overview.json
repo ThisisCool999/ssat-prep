@@ -1,0 +1,138 @@
+{
+  "sections": [
+    {
+      "title": "The SSAT Upper Level at a Glance",
+      "icon": "doc.text.magnifyingglass",
+      "blocks": [
+        {
+          "heading": "Test Format",
+          "body": "Five sections plus an experimental block, always in this order. Total sitting time is about 3 hours 5 minutes including breaks.",
+          "bullets": [
+            "Writing Sample — 1 prompt, 25 min. Unscored, but a copy is sent to every school you apply to.",
+            "Quantitative 1 — 25 questions, 30 min. No calculator.",
+            "Reading — 40 questions, 40 min. Roughly 7-8 passages, fiction and nonfiction.",
+            "Verbal — 60 questions, 30 min: 30 synonyms then 30 analogies. That is 30 seconds per question.",
+            "Quantitative 2 — 25 questions, 30 min. Same difficulty band as Quant 1; both count toward one math score.",
+            "Experimental — 16 questions, 15 min. Unscored, used to test future questions. You won't know it's experimental — treat it seriously anyway."
+          ]
+        },
+        {
+          "heading": "How It's Scored",
+          "body": "Each scored section (Verbal, Quantitative, Reading) reports a scaled score from 500 to 800, for a total of 1500-2400. Percentiles compare you only against students of the same grade and gender who took the SSAT in the last three years — a selective pool, so percentiles run lower than school grades feel. A 60th percentile SSAT is a strong result; don't panic when your percentile looks lower than your GPA suggests."
+        }
+      ]
+    },
+    {
+      "title": "Scoring & the Guessing Rule",
+      "icon": "plusminus.circle",
+      "blocks": [
+        {
+          "heading": "The Quarter-Point Penalty",
+          "body": "Every question is worth +1 raw point if right, -1/4 if wrong, and exactly 0 if left blank. This is the single most important strategic fact about the SSAT, and most students play it wrong in both directions — guessing blindly and skipping questions they should attempt."
+        },
+        {
+          "heading": "The Expected-Value Math",
+          "body": "With 5 answer choices, a pure blind guess breaks even: 1/5 chance of +1, 4/5 chance of -1/4, expected value exactly 0. The moment you eliminate even one choice, guessing becomes profitable.",
+          "bullets": [
+            "0 eliminated: EV = 0.00 per guess — no gain, no loss.",
+            "1 eliminated: EV = +0.06 per guess. Guess.",
+            "2 eliminated: EV = +0.17 per guess. Definitely guess.",
+            "3 eliminated: EV = +0.38 per guess. This is nearly half a free point — always guess."
+          ]
+        },
+        {
+          "heading": "The Honest Rule",
+          "body": "Skip only true coin-flips: questions where you genuinely cannot rule out a single option. Be brutally honest with yourself about what counts as elimination — 'this one feels wrong' is not elimination, but 'this word is positive and the stem is negative' is. On synonyms and analogies you can almost always kill one or two choices, so blanks should be rare in Verbal and more common in the hardest math and inference questions."
+        }
+      ]
+    },
+    {
+      "title": "Section Game Plans",
+      "icon": "target",
+      "blocks": [
+        {
+          "heading": "Verbal — 60 Questions in 30 Minutes",
+          "body": "Speed section. You cannot ponder; you need mechanical moves that work even on words you half-know.",
+          "bullets": [
+            "Charge first: decide if the stem word feels positive, negative, or neutral, then eliminate every choice with the wrong charge. This alone kills 1-3 options on most synonyms even when you can't define the word.",
+            "Weak bridges lose: for analogies, state the stem relationship as a specific sentence ('a scalpel is a tool a surgeon cuts with'). If your bridge is vague ('they're related'), it's wrong — tighten it until only one choice fits.",
+            "Sweep easy synonyms first: do all synonyms you know cold, then all analogies, then return to the hard synonyms. Never let question 12 steal time from the 20 easy points sitting after it."
+          ]
+        },
+        {
+          "heading": "Quantitative — 50 Questions Across Two Sections",
+          "body": "The math is mostly pre-algebra through early algebra and geometry; points are lost to arithmetic slips and slow setups, not to hard concepts.",
+          "bullets": [
+            "Arithmetic hygiene: no calculator means every careless multiplication costs 1.25 points (the point you lost plus the penalty). Write every step, line up columns, and re-read what the question asks before bubbling — 'x' is often not the final answer.",
+            "Backsolve from C: answer choices are usually sorted. Plug choice C into the problem; if it's too big, test A/B, if too small, test D/E. Two checks usually finish it — often faster than algebra.",
+            "Plug in easy numbers: when a problem has variables in the answers ('in terms of n'), set n to a small friendly number (2, 10, 100 for percents), compute the answer, and test which choice matches. Avoid 0 and 1 — they make wrong choices match."
+          ]
+        },
+        {
+          "heading": "Reading — 40 Questions in 40 Minutes",
+          "body": "You will likely not finish comfortably, and that's fine — accuracy on the passages you do beats rushed coverage of all of them.",
+          "bullets": [
+            "Choose your passage order: skim the first lines of each passage and do your strongest genres first (most students: nonfiction before poetry/old fiction). Every passage is worth the same points; there's no bonus for suffering in order.",
+            "The evidence test: every correct answer is provable from a specific line. Before bubbling, point to the words in the passage that prove it. If you're choosing an answer because it 'sounds smart' or is true in real life, it's a trap.",
+            "Skip discipline: if a question resists after 45 seconds, mark it, guess if you've eliminated something, and move on. One stubborn inference question can cost you an entire passage at the end of the section."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The 4-Week Plan",
+      "icon": "calendar",
+      "blocks": [
+        {
+          "heading": "The Daily Core (Every Day, ~30-40 min)",
+          "body": "Two non-negotiables anchor every day of the plan.",
+          "bullets": [
+            "Flashcard SRS reviews: clear your due queue every day, no exceptions. Spaced repetition only works if reviews happen on schedule; a skipped day compounds. New cards: 15-20/day in weeks 1-2, taper to 5-10 in weeks 3-4.",
+            "Error log: every question you miss in any drill goes in with three fields — what the question was, why you actually missed it (concept gap, misread, careless, time), and the rule to apply next time. Review the log before every timed set."
+          ]
+        },
+        {
+          "heading": "Weekly Cadence",
+          "body": "Layer the app's drills on top of the daily core, rotating so every scored section gets touched at least twice a week.",
+          "bullets": [
+            "Week 1 — Diagnose: one quiz per section untimed, flag weak math topics, start flashcards. Goal: know exactly where your points are leaking.",
+            "Week 2 — Build: alternate days of analogies drills + math topic review (your two weakest topics) with reading drills + vocabulary quizzes. Untimed but strict about method: charge/bridge on verbal, backsolve/plug-in on math, evidence test on reading.",
+            "Week 3 — Speed: same rotation, now timed at test pace (30 sec/verbal question, ~70 sec/math, 1 min/reading question). Guessing rule in force — practice deciding guess-vs-blank, not just answering.",
+            "Week 4 — Simulate: lighter new content; two full timed mixed sets early in the week, error-log review daily, last full simulation no later than 3 days before test day. Final 2 days: SRS reviews and error log only."
+          ]
+        },
+        {
+          "heading": "Weekly Timed Mixed Set",
+          "body": "Once every week (twice in week 4), sit a timed mixed set covering all sections back-to-back. This is where pacing, the guessing rule, and passage-order strategy get rehearsed as one system. Score it, log every miss, and pick exactly one pacing fix to apply the following week — one fix per week actually sticks; five don't."
+        }
+      ]
+    },
+    {
+      "title": "Writing Sample in 5 Minutes",
+      "icon": "pencil.and.outline",
+      "blocks": [
+        {
+          "heading": "The Two Prompt Styles",
+          "body": "You choose one of two prompts: a creative prompt (a story starter like 'The door creaked open...') or an essay prompt (a question or statement to argue, like 'What is one change you would make to your school?'). Neither is graded, but admissions officers read it as a raw, unedited sample of your thinking and control of language. Pick the style you write faster and cleaner in — decide which that is during practice, not on test day."
+        },
+        {
+          "heading": "Structure: Creative Story",
+          "body": "One small event, told completely. Setup in 2-3 sentences (character + want + setting), a single complication, a turn, and an ending that lands. One scene beats a sprawling plot — 25 minutes is enough for about 1.5-2 handwritten pages, and an unfinished epic reads worse than a finished small story."
+        },
+        {
+          "heading": "Structure: Essay",
+          "body": "State your position in the first two sentences. Two body paragraphs, each with one concrete example (from your life, school, books, history — specific beats impressive). One-sentence conclusion that echoes the opening. Budget: 3 min plan, 19 min write, 3 min reread for spelling and dropped words."
+        },
+        {
+          "heading": "Do / Don't",
+          "body": "Schools look for organized thought, a real voice, and clean mechanics — not vocabulary fireworks.",
+          "bullets": [
+            "Do save 3 minutes to reread: fixing five small errors improves the impression more than one extra paragraph.",
+            "Don't use memorized 'impressive' vocabulary you can't control — a misused big word reads worse than a plain right one.",
+            "Don't leave the story or argument unfinished: a complete, modest piece beats an ambitious fragment every time."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# Swift Package Manager / build output
+.build/
+.swiftpm/
+DerivedData/
+
+# Packaged app + debug symbols (build it with Scripts/make_app.sh)
+*.app
+*.dSYM
+
+# Generated Xcode project (run Scripts/generate_xcodeproj.py)
+*.xcodeproj/
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+
+# macOS
+.DS_Store
+
+# Local study progress / scratch
+progress*.json

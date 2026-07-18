@@ -1,0 +1,2440 @@
+{
+  "bridges": [
+    {
+      "name": "Synonym",
+      "pattern": "A means the same as B.",
+      "example": "arid is to dry (arid means dry)",
+      "tip": "If the stem words are interchangeable in a sentence, the answer pair must be equally interchangeable. Beware near-synonyms that differ in strength — those belong to the degree bridge."
+    },
+    {
+      "name": "Antonym",
+      "pattern": "A means the opposite of B.",
+      "example": "expand is to contract (to expand is the opposite of to contract)",
+      "tip": "Confirm the words are true opposites, not just different. 'Cold' and 'wet' feel unlike each other but are not antonyms — that pair would be a weak bridge."
+    },
+    {
+      "name": "Degree/Intensity",
+      "pattern": "A is a much stronger (or much weaker) version of B.",
+      "example": "annoyed is to livid (livid is extreme annoyance)",
+      "tip": "Direction is everything. If the stem runs mild-to-extreme, eliminate every choice that runs extreme-to-mild, even when the words are otherwise related."
+    },
+    {
+      "name": "Part : Whole",
+      "pattern": "A is a piece or section of B.",
+      "example": "spoke is to wheel (a spoke is one part of a wheel)",
+      "tip": "Check which side is the part, then ask what KIND of part it is (the gripping part, the covering part, the opening section). That second question breaks ties."
+    },
+    {
+      "name": "Member : Category",
+      "pattern": "A is a specific type of B.",
+      "example": "sonnet is to poem (a sonnet is a kind of poem)",
+      "tip": "Test with 'is a': a sonnet IS a poem, so it is a member, not a part. A stanza is NOT a poem, so stanza:poem is part:whole instead."
+    },
+    {
+      "name": "Worker : Tool",
+      "pattern": "A uses B to do his or her job.",
+      "example": "photographer is to camera (a photographer works with a camera)",
+      "tip": "Keep tool separate from product: a carpenter uses a saw (tool) but makes a cabinet (product). Choices often swap one for the other to trap you."
+    },
+    {
+      "name": "Worker : Product",
+      "pattern": "A makes or creates B.",
+      "example": "playwright is to drama (a playwright writes dramas)",
+      "tip": "The product is what the worker's labor leaves behind. If the second word is something the worker handles but does not create, the bridge does not match."
+    },
+    {
+      "name": "Tool : Function",
+      "pattern": "A is used to B — including verb definitions like 'to A is to do B.'",
+      "example": "shears are to trim (shears are used to trim)",
+      "tip": "State the function as a verb: 'a sieve strains, a loom weaves.' This bridge also covers word-function stems such as 'abridge is to length' (to abridge is to reduce length)."
+    },
+    {
+      "name": "Cause : Effect",
+      "pattern": "A produces or brings about B.",
+      "example": "virus is to infection (a virus causes an infection)",
+      "tip": "Watch for reversed pairs — 'symptom is to disease' puts the effect first. Also distinguish causing from preventing: a vaccine causes immunity, not illness."
+    },
+    {
+      "name": "Characteristic",
+      "pattern": "B is a defining trait of A — or, in the 'lacks' twist, B is exactly what A is missing.",
+      "example": "buoyant is to float (a buoyant object floats); destitute is to money (a destitute person lacks money)",
+      "tip": "Decide immediately whether the stem is 'has/does by definition' or 'lacks by definition.' Miserly is to generosity is a LACKS pair — then every 'has' choice dies at once."
+    },
+    {
+      "name": "Location/Habitat",
+      "pattern": "A lives in, is found in, or belongs on B.",
+      "example": "trout is to stream (a trout lives in a stream)",
+      "tip": "Be precise about the connection: a mural is painted directly ON a wall, while a painting merely hangs in a museum. 'Found near' or 'associated with' is usually too weak."
+    },
+    {
+      "name": "Sequence/Time",
+      "pattern": "A comes before B, or A develops into B.",
+      "example": "engagement is to marriage (an engagement precedes a marriage)",
+      "tip": "Fix the direction (before vs. after) and the type of sequence (preparation, growth stage, ranking). 'Encore is to concert' fails a before-bridge because an encore comes after."
+    }
+  ],
+  "howTo": [
+    {
+      "heading": "Step 1: Build a precise bridge sentence",
+      "body": "Before looking at the choices, connect the two stem words in one short, specific sentence: 'A scalpel is the tool a surgeon cuts with.' Then read each choice pair into the exact same sentence. Vague sentences ('a surgeon has a scalpel') let several choices survive; a precise sentence usually kills four of them instantly."
+    },
+    {
+      "heading": "Step 2: Tighten the sentence when two or more choices fit",
+      "body": "If more than one pair passes your sentence, your bridge is too loose — sharpen it and test again. For 'hilt is to sword,' the loose bridge 'a hilt is part of a sword' lets both 'blade is to dagger' and 'handle is to suitcase' through. Tighten to 'a hilt is the part of a sword you GRIP,' and only the handle survives. Never choose between two survivors on gut feel; always re-tighten."
+    },
+    {
+      "heading": "Step 3: Eliminate weak bridges on sight",
+      "body": "A correct answer must have a NECESSARY relationship — one true by definition, not by coincidence. 'Chef is to kitchen' works (a chef necessarily works in a kitchen), but 'teacher is to pupil'... a teacher merely encounters pupils; and 'caterpillar is to leaf' is pure association. Any choice whose two words are only loosely associated ('rain is to umbrella,' 'salt is to pepper') is ALWAYS wrong, so cross it off even before you finish your bridge sentence. Every SSAT answer key respects this rule."
+    },
+    {
+      "heading": "Step 4: Unknown words — work backwards from the choices",
+      "body": "If you can't define a stem word, flip the process: build a bridge for each answer CHOICE instead. Eliminate every choice with a weak bridge — those can never be right. Then use whatever you do know about the stem (its root, prefix, part of speech, or tone) to test the surviving strong bridges. Knowing only that 'soporific' relates to sleep, you can still pick the choice whose bridge is 'X induces Y' and reject 'needle,' which is merely associated with vaccines."
+    },
+    {
+      "heading": "Step 5: Guess with the quarter-point rule",
+      "body": "The SSAT deducts 1/4 point for each wrong answer and 0 for a blank, so a blind guess among five choices only breaks even. But the moment you eliminate even ONE choice — and weak-bridge elimination almost always removes one or two — guessing becomes mathematically profitable. Policy: eliminate at least one choice, then guess from what remains; leave a question blank only when you can rule out nothing at all."
+    }
+  ],
+  "practice": [
+    {
+      "stem": "abscond is to leave as",
+      "choices": [
+        "A) run is to sprint",
+        "B) sprint is to run",
+        "C) walk is to wander",
+        "D) leap is to stand",
+        "E) crawl is to race"
+      ],
+      "answerIndex": 1,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity: to abscond is to leave in an extreme, dramatic way (secretly, in a rush), just as to sprint is an intense form of to run (intense to mild). The strongest trap, 'run is to sprint,' has the right words but runs mild to intense, the reverse direction."
+    },
+    {
+      "stem": "ado is to fuss as",
+      "choices": [
+        "A) calm is to fuss",
+        "B) uproar is to commotion",
+        "C) noise is to silence",
+        "D) trouble is to peace",
+        "E) fuss is to problem"
+      ],
+      "answerIndex": 1,
+      "bridge": "Synonym",
+      "explanation": "Synonym: ado means the same thing as fuss (a needless commotion), just as uproar means the same thing as commotion. The strongest trap, 'calm is to fuss,' pairs opposites rather than synonyms, so it fails."
+    },
+    {
+      "stem": "alcove is to room as",
+      "choices": [
+        "A) flower is to petal",
+        "B) petal is to flower",
+        "C) rain is to cloud",
+        "D) fish is to ocean",
+        "E) driver is to car"
+      ],
+      "answerIndex": 1,
+      "bridge": "Part:Whole",
+      "explanation": "Part:Whole: an alcove is a small part of a larger room, just as a petal is a part of a whole flower (part to whole). The strongest trap, 'flower is to petal,' uses the same words but goes whole to part, the reverse direction."
+    },
+    {
+      "stem": "almanac is to book as",
+      "choices": [
+        "A) dog is to poodle",
+        "B) poodle is to dog",
+        "C) book is to page",
+        "D) apple is to tree",
+        "E) fish is to water"
+      ],
+      "answerIndex": 1,
+      "bridge": "Member:Category",
+      "explanation": "Member:Category: an almanac is a specific type of book, just as a poodle is a specific type of dog (member to category). The strongest trap, 'dog is to poodle,' reverses the direction (category to member); 'book is to page' is whole to part instead."
+    },
+    {
+      "stem": "amalgamate is to separate as",
+      "choices": [
+        "A) join is to split",
+        "B) split is to join",
+        "C) build is to create",
+        "D) gather is to collect",
+        "E) mix is to blend"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym: to amalgamate (combine) is the opposite of to separate, just as to join is the opposite of to split, in the same combine-then-split order. The strongest trap, 'split is to join,' has the right words but reverses the order."
+    },
+    {
+      "stem": "apathy is to interest as",
+      "choices": [
+        "A) silence is to sound",
+        "B) noise is to sound",
+        "C) sound is to silence",
+        "D) anger is to calm",
+        "E) light is to lamp"
+      ],
+      "answerIndex": 0,
+      "bridge": "Lack",
+      "explanation": "Lack: apathy means a total lack of interest, just as silence means a lack of sound (the first word is the absence of the second). The strongest trap, 'sound is to silence,' reverses that; 'noise is to sound' is a synonym pair, not an absence relationship."
+    },
+    {
+      "stem": "aphorism is to saying as",
+      "choices": [
+        "A) flower is to rose",
+        "B) rose is to flower",
+        "C) book is to chapter",
+        "D) apple is to seed",
+        "E) river is to lake"
+      ],
+      "answerIndex": 1,
+      "bridge": "Member:Category",
+      "explanation": "Member:Category: an aphorism is a specific type of saying, just as a rose is a specific type of flower (member to category). The strongest trap, 'flower is to rose,' reverses the direction (category to member); 'book is to chapter' is whole to part."
+    },
+    {
+      "stem": "attest is to deny as",
+      "choices": [
+        "A) confirm is to reject",
+        "B) reject is to confirm",
+        "C) agree is to accept",
+        "D) prove is to show",
+        "E) speak is to shout"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym: to attest is to declare something true, the opposite of to deny, just as to confirm is the opposite of to reject, in the same affirm-then-deny order. The strongest trap, 'reject is to confirm,' reverses that order; 'agree is to accept' is a synonym pair."
+    },
+    {
+      "stem": "auspicious is to unlucky as",
+      "choices": [
+        "A) hopeful is to gloomy",
+        "B) gloomy is to hopeful",
+        "C) bright is to sunny",
+        "D) happy is to cheerful",
+        "E) lucky is to fortunate"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym: auspicious (favorable, promising) is the opposite of unlucky, just as hopeful is the opposite of gloomy, in the same positive-then-negative order. The strongest trap, 'gloomy is to hopeful,' reverses that; 'lucky is to fortunate' is a synonym pair."
+    },
+    {
+      "stem": "avid is to interested as",
+      "choices": [
+        "A) interested is to avid",
+        "B) boiling is to warm",
+        "C) cold is to hot",
+        "D) big is to huge",
+        "E) happy is to sad"
+      ],
+      "answerIndex": 1,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity: avid is an intense form of interested, just as boiling is an intense form of warm (intense to mild). The strongest trap, 'big is to huge,' goes mild to intense, the reverse direction; 'cold is to hot' is an antonym."
+    },
+    {
+      "stem": "bust is to museum as",
+      "choices": [
+        "A) museum is to painting",
+        "B) painting is to museum",
+        "C) shark is to teeth",
+        "D) artist is to brush",
+        "E) marble is to statue"
+      ],
+      "answerIndex": 1,
+      "bridge": "Object:Location",
+      "explanation": "Object:Location: a bust is an artwork displayed in a museum, just as a painting is displayed in a museum (object to location). The strongest trap, 'museum is to painting,' reverses the direction; 'artist is to brush' is worker to tool."
+    },
+    {
+      "stem": "carp is to complain as",
+      "choices": [
+        "A) praise is to complain",
+        "B) grumble is to complain",
+        "C) complain is to cheer",
+        "D) shout is to whisper",
+        "E) laugh is to smile"
+      ],
+      "answerIndex": 1,
+      "bridge": "Synonym",
+      "explanation": "Synonym: to carp is to complain (to nag about small things), just as to grumble is to complain (same meaning). The strongest trap, 'praise is to complain,' pairs opposites rather than synonyms, so it fails."
+    },
+    {
+      "stem": "chastise is to scold as",
+      "choices": [
+        "A) run is to sprint",
+        "B) sprint is to run",
+        "C) shout is to whisper",
+        "D) jog is to run",
+        "E) talk is to shout"
+      ],
+      "answerIndex": 1,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity: to chastise is an intense, severe form of scolding, so the pair goes intense-to-base. Sprint is an intense form of run, matching intense-to-base in the same direction. The strongest trap, 'run is to sprint,' reverses the order to base-to-intense, so it fails."
+    },
+    {
+      "stem": "chide is to scold as",
+      "choices": [
+        "A) drink is to sip",
+        "B) gulp is to drink",
+        "C) jog is to run",
+        "D) run is to jog",
+        "E) sip is to gulp"
+      ],
+      "answerIndex": 2,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity: to chide is a mild, gentle form of scolding, so the pair goes mild-to-base. A jog is a gentle form of a run, matching mild-to-base in the same direction. The strongest trap, 'gulp is to drink,' is intense-to-base, the wrong degree direction, so it fails."
+    },
+    {
+      "stem": "coarse is to rough as",
+      "choices": [
+        "A) rough is to smooth",
+        "B) small is to tiny",
+        "C) large is to big",
+        "D) big is to huge",
+        "E) smooth is to soft"
+      ],
+      "answerIndex": 2,
+      "bridge": "Synonym",
+      "explanation": "Synonym: coarse and rough mean the same thing. Large and big are synonyms in the same way. The strongest trap, 'small is to tiny,' looks similar but is Degree/Intensity (tiny is an extreme small, not just a synonym), so it fails."
+    },
+    {
+      "stem": "commence is to finish as",
+      "choices": [
+        "A) start is to begin",
+        "B) open is to close",
+        "C) close is to open",
+        "D) end is to stop",
+        "E) begin is to start"
+      ],
+      "answerIndex": 1,
+      "bridge": "Antonym",
+      "explanation": "Antonym: commence means to begin, the opposite of finish, giving a begin-to-end pair. Open is to close is the same begin-to-end opposition in the same direction. The strongest trap, 'start is to begin,' is a synonym pair, not an antonym, so it fails."
+    },
+    {
+      "stem": "commend is to praise as",
+      "choices": [
+        "A) praise is to blame",
+        "B) yell is to whisper",
+        "C) shout is to yell",
+        "D) yell is to talk",
+        "E) whisper is to shout"
+      ],
+      "answerIndex": 2,
+      "bridge": "Synonym",
+      "explanation": "Synonym: to commend is to praise; they mean the same. Shout and yell are synonyms in the same way. The strongest trap, 'praise is to blame,' pairs opposites (antonym), not synonyms, so it fails."
+    },
+    {
+      "stem": "composure is to panic as",
+      "choices": [
+        "A) calm is to quiet",
+        "B) peace is to war",
+        "C) war is to peace",
+        "D) joy is to happiness",
+        "E) anger is to rage"
+      ],
+      "answerIndex": 1,
+      "bridge": "Antonym",
+      "explanation": "Antonym: composure is calm control, the opposite of panic, giving a calm-to-chaos pair. Peace is to war is the same calm-to-chaos opposition in the same direction. The strongest trap, 'war is to peace,' is the correct opposites but reversed, so it fails."
+    },
+    {
+      "stem": "conducive is to helpful as",
+      "choices": [
+        "A) helpful is to harmful",
+        "B) useful is to handy",
+        "C) harmful is to useful",
+        "D) hard is to easy",
+        "E) good is to great"
+      ],
+      "answerIndex": 1,
+      "bridge": "Synonym",
+      "explanation": "Synonym: conducive means helpful or favorable; the words match in meaning. Useful and handy are synonyms in the same way. The strongest trap, 'helpful is to harmful,' pairs opposites (antonym), not synonyms, so it fails."
+    },
+    {
+      "stem": "conservation is to waste as",
+      "choices": [
+        "A) save is to spend",
+        "B) spend is to save",
+        "C) keep is to hold",
+        "D) protect is to guard",
+        "E) build is to make"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym: conservation is careful saving, the opposite of waste, giving a save-to-use-up pair. Save is to spend is the same opposition in the same direction. The strongest trap, 'spend is to save,' has the right opposites but reversed, so it fails."
+    },
+    {
+      "stem": "constitute is to form as",
+      "choices": [
+        "A) form is to break",
+        "B) build is to make",
+        "C) break is to build",
+        "D) make is to destroy",
+        "E) join is to split"
+      ],
+      "answerIndex": 1,
+      "bridge": "Synonym",
+      "explanation": "Synonym: to constitute is to make up or form something; the words mean the same. Build and make are synonyms in the same way. The strongest trap, 'make is to destroy,' pairs opposites (antonym), not synonyms, so it fails."
+    },
+    {
+      "stem": "consummate is to skilled as",
+      "choices": [
+        "A) smart is to brilliant",
+        "B) brilliant is to smart",
+        "C) good is to bad",
+        "D) skilled is to clumsy",
+        "E) weak is to strong"
+      ],
+      "answerIndex": 1,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity: consummate means supremely, perfectly skilled, so the pair goes extreme-to-base. Brilliant is an extreme form of smart, matching extreme-to-base in the same direction. The strongest trap, 'smart is to brilliant,' reverses it to base-to-extreme, so it fails."
+    },
+    {
+      "stem": "decline is to increase as",
+      "choices": [
+        "A) grow is to shrink",
+        "B) shrink is to grow",
+        "C) fall is to drop",
+        "D) rise is to climb",
+        "E) raise is to lower"
+      ],
+      "answerIndex": 1,
+      "bridge": "Antonym",
+      "explanation": "Antonym: to decline is to decrease, the opposite of increase, giving a decrease-to-increase pair. Shrink is to grow is the same opposition in the same direction. The strongest trap, 'grow is to shrink,' has the right opposites but reversed to increase-to-decrease, so it fails."
+    },
+    {
+      "stem": "decree is to order as",
+      "choices": [
+        "A) order is to decree",
+        "B) rose is to flower",
+        "C) flower is to petal",
+        "D) garden is to plant",
+        "E) crown is to king"
+      ],
+      "answerIndex": 1,
+      "bridge": "Member:Category",
+      "explanation": "Member:Category: a decree is a specific kind of order, going specific-to-general. A rose is a specific kind of flower, matching specific-to-general in the same direction. The strongest trap, 'order is to decree,' reverses it to general-to-specific, so it fails."
+    },
+    {
+      "stem": "deed is to action as",
+      "choices": [
+        "A) reply is to answer",
+        "B) start is to finish",
+        "C) walk is to march",
+        "D) hand is to finger",
+        "E) hero is to brave"
+      ],
+      "answerIndex": 0,
+      "bridge": "Synonym",
+      "explanation": "Synonym: a deed IS an action, and a reply IS an answer, so A matches in meaning and direction. The strongest trap, C (walk/march), is a degree pair (a march is an intense walk), not two words that simply mean the same thing."
+    },
+    {
+      "stem": "deem is to judge as",
+      "choices": [
+        "A) buy is to sell",
+        "B) shut is to close",
+        "C) big is to huge",
+        "D) leaf is to tree",
+        "E) hot is to warm"
+      ],
+      "answerIndex": 1,
+      "bridge": "Synonym",
+      "explanation": "Synonym: to deem is to judge, and to shut is to close, so B is an exact meaning match. The strongest trap, C (big/huge), looks close but is a degree pair (huge is an extreme of big), while deem and judge are simply equal in meaning."
+    },
+    {
+      "stem": "deft is to clumsy as",
+      "choices": [
+        "A) graceful is to awkward",
+        "B) skilled is to talented",
+        "C) fast is to speedy",
+        "D) calm is to peaceful",
+        "E) messy is to neat"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym: deft (skillful) is the opposite of clumsy, just as graceful is the opposite of awkward, moving from a positive skill word to a negative one. The strongest trap, E (messy/neat), is also an antonym pair but runs the wrong direction (negative to positive), unlike deft to clumsy."
+    },
+    {
+      "stem": "despondent is to sad as",
+      "choices": [
+        "A) furious is to annoyed",
+        "B) happy is to sad",
+        "C) tired is to exhausted",
+        "D) warm is to cold",
+        "E) big is to large"
+      ],
+      "answerIndex": 0,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree: despondent is an extreme form of sad, just as furious is an extreme form of annoyed, going from the strong word to the mild one. The strongest trap, C (tired/exhausted), is also a degree pair but reversed (mild to strong), the opposite of despondent to sad."
+    },
+    {
+      "stem": "deterrent is to discourage as",
+      "choices": [
+        "A) lock is to secure",
+        "B) hammer is to tool",
+        "C) sharp is to knife",
+        "D) rain is to wet",
+        "E) door is to house"
+      ],
+      "answerIndex": 0,
+      "bridge": "Object:Function",
+      "explanation": "Object:Function: the purpose of a deterrent is to discourage, just as the purpose of a lock is to secure. The strongest trap, D (rain/wet), is a cause-and-effect pair rather than a thing paired with its designed purpose."
+    },
+    {
+      "stem": "detest is to dislike as",
+      "choices": [
+        "A) adore is to like",
+        "B) love is to hate",
+        "C) like is to love",
+        "D) want is to need",
+        "E) sad is to happy"
+      ],
+      "answerIndex": 0,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree: to detest is to intensely dislike, and to adore is to intensely like, each moving from the strong word to the milder one. The strongest trap, C (like/love), is a degree pair but reversed (mild to strong), the opposite direction of detest to dislike."
+    },
+    {
+      "stem": "devout is to worshipper as",
+      "choices": [
+        "A) generous is to giver",
+        "B) coward is to fear",
+        "C) kind is to kindness",
+        "D) teacher is to school",
+        "E) tall is to building"
+      ],
+      "answerIndex": 0,
+      "bridge": "Trait:Person",
+      "explanation": "Trait:Person: devout is the defining trait of a worshipper, just as generous is the defining trait of a giver (trait to the person who has it). The strongest trap, B (coward/fear), reverses the order, giving the person first and the trait second."
+    },
+    {
+      "stem": "disparate is to different as",
+      "choices": [
+        "A) ancient is to old",
+        "B) warm is to boiling",
+        "C) young is to old",
+        "D) fast is to slow",
+        "E) rich is to wealthy"
+      ],
+      "answerIndex": 0,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree: disparate means extremely different, and ancient means extremely old, each going from the strong word to the milder one. The strongest trap, B (warm/boiling), is also a degree pair but reversed (mild to strong), unlike disparate to different."
+    },
+    {
+      "stem": "divisive is to disagreement as",
+      "choices": [
+        "A) funny is to laughter",
+        "B) laughter is to funny",
+        "C) sad is to happy",
+        "D) joke is to comedian",
+        "E) rain is to cloud"
+      ],
+      "answerIndex": 0,
+      "bridge": "Cause:Effect",
+      "explanation": "Cause:Effect: something divisive causes disagreement, just as something funny causes laughter (cause then effect). The strongest trap, B (laughter/funny), uses the same idea but reverses it, putting the effect before the cause."
+    },
+    {
+      "stem": "dolly is to move as",
+      "choices": [
+        "A) broom is to sweep",
+        "B) wheel is to car",
+        "C) sweep is to broom",
+        "D) heavy is to box",
+        "E) garage is to car"
+      ],
+      "answerIndex": 0,
+      "bridge": "Object:Function",
+      "explanation": "Object:Function: a dolly is used to move heavy things, just as a broom is used to sweep (tool then its job). The strongest trap, C (sweep/broom), reverses the order, giving the action first and the tool second."
+    },
+    {
+      "stem": "emancipate is to enslave as",
+      "choices": [
+        "A) release is to capture",
+        "B) free is to liberate",
+        "C) help is to assist",
+        "D) capture is to release",
+        "E) lock is to key"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym: to emancipate (set free) is the opposite of to enslave, just as to release is the opposite of to capture, moving from freeing to binding. The strongest trap, D (capture/release), is the same antonym pair reversed (binding to freeing), the wrong direction."
+    },
+    {
+      "stem": "embargo is to trade as",
+      "choices": [
+        "A) dam is to river",
+        "B) key is to door",
+        "C) wheel is to car",
+        "D) river is to dam",
+        "E) map is to trip"
+      ],
+      "answerIndex": 0,
+      "bridge": "Object:Function",
+      "explanation": "Object:Function: an embargo blocks trade, just as a dam blocks a river (the thing and what it stops). The strongest trap, B (key/door), also links an object to what it acts on, but a key opens a door, the opposite of blocking."
+    },
+    {
+      "stem": "enamel is to tooth as",
+      "choices": [
+        "A) banana is to peel",
+        "B) tree is to bark",
+        "C) peel is to banana",
+        "D) hot is to cold",
+        "E) car is to fast"
+      ],
+      "answerIndex": 2,
+      "bridge": "Part:Whole",
+      "explanation": "Part:Whole (outer covering to the whole thing). Enamel is the hard outer layer of a tooth, just as a peel is the outer layer of a banana, so 'peel is to banana' matches in the same direction. The strongest trap, 'banana is to peel,' names the same relationship but reversed (whole to part), so it fails."
+    },
+    {
+      "stem": "endorsement is to approval as",
+      "choices": [
+        "A) praise is to insult",
+        "B) gift is to present",
+        "C) big is to huge",
+        "D) happy is to sad",
+        "E) question is to answer"
+      ],
+      "answerIndex": 1,
+      "bridge": "Synonym",
+      "explanation": "Synonym. An endorsement is public approval, and a gift is a present, so the two words in each pair mean the same thing. The strongest trap, 'big is to huge,' is only near-synonym degree (huge is more intense than big), not an equal match, so it fails."
+    },
+    {
+      "stem": "endow is to give as",
+      "choices": [
+        "A) give is to take",
+        "B) buy is to sell",
+        "C) save is to spend",
+        "D) purchase is to buy",
+        "E) borrow is to lend"
+      ],
+      "answerIndex": 3,
+      "bridge": "Synonym",
+      "explanation": "Synonym. To endow is to give, and to purchase is to buy, so each pair is two words with the same meaning. The strongest trap, 'borrow is to lend,' is about handing something over like giving, but the two words are opposites in direction, not synonyms, so it fails."
+    },
+    {
+      "stem": "enigma is to puzzling as",
+      "choices": [
+        "A) treasure is to valuable",
+        "B) valuable is to treasure",
+        "C) gift is to expensive",
+        "D) poison is to harmless",
+        "E) diamond is to cheap"
+      ],
+      "answerIndex": 0,
+      "bridge": "Trait (characteristic)",
+      "explanation": "Trait/characteristic (thing to its defining quality). An enigma is by definition puzzling, just as a treasure is by definition valuable, matching thing-to-quality in the same order. The strongest trap, 'valuable is to treasure,' is the same idea reversed (quality to thing), so it fails."
+    },
+    {
+      "stem": "entomologist is to scientist as",
+      "choices": [
+        "A) bird is to robin",
+        "B) dog is to cat",
+        "C) wheel is to car",
+        "D) scientist is to lab",
+        "E) robin is to bird"
+      ],
+      "answerIndex": 4,
+      "bridge": "Member:Category",
+      "explanation": "Member:Category (a specific type to its broader group). An entomologist is a kind of scientist, just as a robin is a kind of bird, matching member-to-category in the same order. The strongest trap, 'bird is to robin,' reverses it (category to member), so it fails."
+    },
+    {
+      "stem": "epicure is to refined as",
+      "choices": [
+        "A) coward is to brave",
+        "B) brave is to hero",
+        "C) hero is to brave",
+        "D) genius is to foolish",
+        "E) leader is to shy"
+      ],
+      "answerIndex": 2,
+      "bridge": "Trait:Person",
+      "explanation": "Trait:Person (a person defined by a quality they have). An epicure is refined in taste, just as a hero is brave, matching person-to-their-defining-trait. The strongest trap, 'coward is to brave,' pairs a person with a trait they lack rather than have, so it fails."
+    },
+    {
+      "stem": "erosive is to wear as",
+      "choices": [
+        "A) grow is to nourishing",
+        "B) nourishing is to grow",
+        "C) poisonous is to heal",
+        "D) boring is to excite",
+        "E) freezing is to melt"
+      ],
+      "answerIndex": 1,
+      "bridge": "Cause:Effect",
+      "explanation": "Cause:Effect (a quality to the result it produces). Something erosive causes things to wear away, just as something nourishing causes things to grow, matching cause-to-effect in the same order. The strongest trap, 'grow is to nourishing,' reverses it (effect to cause), so it fails."
+    },
+    {
+      "stem": "exhortation is to encourage as",
+      "choices": [
+        "A) warn is to alarm",
+        "B) lullaby is to wake",
+        "C) map is to confuse",
+        "D) alarm is to warn",
+        "E) joke is to bore"
+      ],
+      "answerIndex": 3,
+      "bridge": "Object:Function",
+      "explanation": "Object:Function (a thing to its purpose). An exhortation exists to encourage someone to act, just as an alarm exists to warn, matching thing-to-purpose in the same order. The strongest trap, 'warn is to alarm,' reverses it (purpose to thing), so it fails."
+    },
+    {
+      "stem": "fickle is to loyal as",
+      "choices": [
+        "A) rough is to smooth",
+        "B) big is to large",
+        "C) happy is to cheerful",
+        "D) fast is to quick",
+        "E) cold is to freezing"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym. Fickle (changeable, undependable) is the opposite of loyal, just as rough is the opposite of smooth. The strongest trap, 'cold is to freezing,' looks tempting but is degree (freezing is more intense cold), not opposites; the other traps are synonyms, so none fits."
+    },
+    {
+      "stem": "furor is to annoyance as",
+      "choices": [
+        "A) irritation is to rage",
+        "B) love is to hate",
+        "C) calm is to peace",
+        "D) happy is to sad",
+        "E) rage is to irritation"
+      ],
+      "answerIndex": 4,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity (strong to weak version of the same feeling). A furor is an intense uproar while annoyance is mild, just as rage is intense while irritation is mild, matching strong-to-weak in the same order. The strongest trap, 'irritation is to rage,' reverses it (weak to strong), so it fails."
+    },
+    {
+      "stem": "furtive is to open as",
+      "choices": [
+        "A) big is to large",
+        "B) fast is to quick",
+        "C) hidden is to visible",
+        "D) happy is to glad",
+        "E) cold is to chilly"
+      ],
+      "answerIndex": 2,
+      "bridge": "Antonym",
+      "explanation": "Antonym. Furtive means sneaky and secretive, the opposite of open, just as hidden is the opposite of visible. Every trap ('big/large,' 'fast/quick,' etc.) is a pair of synonyms rather than opposites, so only 'hidden is to visible' matches."
+    },
+    {
+      "stem": "futile is to success as",
+      "choices": [
+        "A) full is to empty",
+        "B) empty is to contents",
+        "C) rich is to money",
+        "D) bright is to light",
+        "E) loud is to sound"
+      ],
+      "answerIndex": 1,
+      "bridge": "Lack",
+      "explanation": "Lack (the word means being without the second thing). Futile means without success, just as empty means without contents, matching word-to-what-it-lacks. The strongest trap, 'rich is to money,' reverses the idea (rich means having money, not lacking it); 'bright/light' and 'loud/sound' also describe having, not lacking, so they fail."
+    },
+    {
+      "stem": "Garish is to colorful as",
+      "choices": [
+        "A) warm is to boiling",
+        "B) bright is to dim",
+        "C) deafening is to loud",
+        "D) tasty is to food",
+        "E) shiny is to dull"
+      ],
+      "answerIndex": 2,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity: garish is an extreme, over-the-top version of colorful, just as deafening is an extreme version of loud (extreme to mild). The strongest trap, 'warm is to boiling,' has the right idea but runs mild to extreme, the reversed direction."
+    },
+    {
+      "stem": "Glut is to shortage as",
+      "choices": [
+        "A) empty is to full",
+        "B) full is to empty",
+        "C) flood is to rain",
+        "D) hungry is to starving",
+        "E) money is to wallet"
+      ],
+      "answerIndex": 1,
+      "bridge": "Antonym",
+      "explanation": "Antonym: a glut is too much and a shortage is too little (much to little), matching 'full is to empty.' The strongest trap, 'empty is to full,' is the same opposite pair but reversed (little to much), so its direction is wrong."
+    },
+    {
+      "stem": "Goad is to anger as",
+      "choices": [
+        "A) singer is to song",
+        "B) laughter is to joke",
+        "C) tickle is to laughter",
+        "D) loud is to quiet",
+        "E) praise is to compliment"
+      ],
+      "answerIndex": 2,
+      "bridge": "Cause:Effect",
+      "explanation": "Cause:Effect: to goad someone produces anger, just as to tickle someone produces laughter (action leads to the reaction). The strongest trap, 'laughter is to joke,' names an effect and its cause in reverse order, so the direction is flipped."
+    },
+    {
+      "stem": "Gratuitous is to necessary as",
+      "choices": [
+        "A) optional is to required",
+        "B) required is to optional",
+        "C) extra is to bonus",
+        "D) gift is to present",
+        "E) buy is to store"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym: gratuitous means uncalled-for, the opposite of necessary (unneeded to needed), matching 'optional is to required.' The strongest trap, 'required is to optional,' is the same pair reversed (needed to unneeded), so the direction is wrong."
+    },
+    {
+      "stem": "Guile is to trickster as",
+      "choices": [
+        "A) hero is to bravery",
+        "B) coward is to fear",
+        "C) bravery is to hero",
+        "D) kindness is to cruelty",
+        "E) doctor is to hospital"
+      ],
+      "answerIndex": 2,
+      "bridge": "Trait:Person",
+      "explanation": "Trait:Person: guile is the defining trait of a trickster, just as bravery is the defining trait of a hero (trait to the person who embodies it). The strongest trap, 'hero is to bravery,' is the same idea but reversed (person to trait), so the direction is wrong."
+    },
+    {
+      "stem": "Gustatory is to taste as",
+      "choices": [
+        "A) visual is to sight",
+        "B) sight is to visual",
+        "C) tongue is to mouth",
+        "D) ear is to hear",
+        "E) bright is to color"
+      ],
+      "answerIndex": 0,
+      "bridge": "Object:Function",
+      "explanation": "Object:Function: gustatory is the adjective for the sense whose function is taste, just as visual is the adjective for the sense whose function is sight (adjective to its sense). The strongest trap, 'sight is to visual,' is the same pairing reversed (sense to adjective), so the direction is wrong."
+    },
+    {
+      "stem": "Heed is to ignore as",
+      "choices": [
+        "A) forget is to remember",
+        "B) remember is to forget",
+        "C) listen is to talk",
+        "D) study is to learn",
+        "E) ignore is to notice"
+      ],
+      "answerIndex": 1,
+      "bridge": "Antonym",
+      "explanation": "Antonym: to heed is to pay attention and to ignore is to neglect (attend to neglect), matching 'remember is to forget.' The strongest trap, 'forget is to remember,' is the same opposite pair reversed (neglect to attend), so the direction is wrong."
+    },
+    {
+      "stem": "Herald is to announce as",
+      "choices": [
+        "A) begin is to end",
+        "B) reporter is to news",
+        "C) start is to begin",
+        "D) shout is to whisper",
+        "E) bell is to ring"
+      ],
+      "answerIndex": 2,
+      "bridge": "Synonym",
+      "explanation": "Synonym: to herald something is to announce it, just as to start something is to begin it (near-identical meaning). The strongest trap, 'begin is to end,' uses the same word 'begin' but pairs it with its opposite, making it an antonym rather than a synonym."
+    },
+    {
+      "stem": "Hiatus is to break as",
+      "choices": [
+        "A) work is to rest",
+        "B) hurry is to rush",
+        "C) pause is to play",
+        "D) sleep is to tired",
+        "E) gap is to bridge"
+      ],
+      "answerIndex": 1,
+      "bridge": "Synonym",
+      "explanation": "Synonym: a hiatus is a break or pause, just as to hurry is to rush (near-identical meaning). The strongest trap, 'work is to rest,' is same-topic (both about activity and pausing) but the two words are opposites, not synonyms."
+    },
+    {
+      "stem": "Illustrious is to famous as",
+      "choices": [
+        "A) old is to ancient",
+        "B) famous is to unknown",
+        "C) ancient is to old",
+        "D) good is to bad",
+        "E) warm is to hot"
+      ],
+      "answerIndex": 2,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity: illustrious is an extreme, distinguished degree of famous, just as ancient is an extreme degree of old (extreme to mild). The strongest trap, 'old is to ancient,' has the same pair but runs mild to extreme, the reversed direction."
+    },
+    {
+      "stem": "Imperative is to important as",
+      "choices": [
+        "A) starving is to hungry",
+        "B) hungry is to starving",
+        "C) important is to unimportant",
+        "D) big is to small",
+        "E) happy is to sad"
+      ],
+      "answerIndex": 0,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity: imperative is an extreme, absolutely-necessary degree of important, just as starving is an extreme degree of hungry (extreme to mild). The strongest trap, 'hungry is to starving,' has the same pair but runs mild to extreme, the reversed direction."
+    },
+    {
+      "stem": "Impervious is to fragile as",
+      "choices": [
+        "A) weak is to strong",
+        "B) strong is to weak",
+        "C) tough is to sturdy",
+        "D) shield is to protect",
+        "E) armor is to knight"
+      ],
+      "answerIndex": 1,
+      "bridge": "Antonym",
+      "explanation": "Antonym: impervious means unbreakable and unaffected, the opposite of fragile, which breaks easily (tough to weak), matching 'strong is to weak.' The strongest trap, 'weak is to strong,' is the same opposite pair reversed (weak to tough), so the direction is wrong."
+    },
+    {
+      "stem": "incense is to annoy as",
+      "choices": [
+        "A) scare is to terrify",
+        "B) annoy is to please",
+        "C) terrify is to scare",
+        "D) giggle is to laugh",
+        "E) shout is to whisper"
+      ],
+      "answerIndex": 2,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity. To incense is an extreme form of to annoy: annoy means to bother a little, incense means to make furious, so the pair runs strong to weak. 'terrify is to scare' matches exactly, since terrify is an extreme scare (strong to weak). The strongest trap, 'scare is to terrify', uses the same idea but reverses the direction to weak-to-strong."
+    },
+    {
+      "stem": "indignation is to unfairness as",
+      "choices": [
+        "A) danger is to fear",
+        "B) joy is to unfairness",
+        "C) fear is to danger",
+        "D) laughter is to sadness",
+        "E) calm is to insult"
+      ],
+      "answerIndex": 2,
+      "bridge": "Cause:Effect",
+      "explanation": "Cause:Effect (here effect then cause). Indignation is the anger produced BY unfairness, so the feeling comes first and its cause second. 'fear is to danger' is the same: fear is the feeling produced by danger. The strongest trap, 'danger is to fear', names the same two ideas but flips them to cause-then-effect."
+    },
+    {
+      "stem": "indulgent is to strict as",
+      "choices": [
+        "A) generous is to stingy",
+        "B) strict is to firm",
+        "C) lenient is to easygoing",
+        "D) kind is to gentle",
+        "E) harsh is to cruel"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym. Indulgent means far too lenient, the opposite of strict, just as generous is the opposite of stingy. The strongest trap, 'lenient is to easygoing', tempts you because lenient is close in meaning to indulgent, but lenient and easygoing are synonyms, not opposites."
+    },
+    {
+      "stem": "interrogatory is to questioning as",
+      "choices": [
+        "A) questioning is to answering",
+        "B) enormous is to huge",
+        "C) tiny is to huge",
+        "D) curious is to bored",
+        "E) loud is to quiet"
+      ],
+      "answerIndex": 1,
+      "bridge": "Synonym",
+      "explanation": "Synonym. Interrogatory means having the form of a question, so it means the same as questioning, just as enormous means the same as huge. The strongest trap, 'questioning is to answering', reuses a stem word but pairs opposites instead of two words that mean the same thing."
+    },
+    {
+      "stem": "intransigent is to compromise as",
+      "choices": [
+        "A) blank is to writing",
+        "B) silent is to loud",
+        "C) flexible is to stubborn",
+        "D) empty is to full",
+        "E) stubborn is to firm"
+      ],
+      "answerIndex": 0,
+      "bridge": "Lack",
+      "explanation": "Lack (the word means being without the second thing). Someone intransigent is completely without any willingness to compromise, just as something blank is completely without writing. The strongest trap, 'flexible is to stubborn', pairs opposites (and flexible is the opposite of intransigent), which is an antonym relationship, not a 'without' one."
+    },
+    {
+      "stem": "lackey is to servant as",
+      "choices": [
+        "A) poodle is to dog",
+        "B) dog is to poodle",
+        "C) servant is to master",
+        "D) animal is to dog",
+        "E) cat is to dog"
+      ],
+      "answerIndex": 0,
+      "bridge": "Member:Category",
+      "explanation": "Member:Category. A lackey is one specific kind of servant, moving from the narrow member to the wider category, just as a poodle is one specific kind of dog. The strongest trap, 'dog is to poodle', names the same two ideas but reverses them to category-then-member."
+    },
+    {
+      "stem": "lax is to strict as",
+      "choices": [
+        "A) loose is to tight",
+        "B) strict is to firm",
+        "C) careless is to sloppy",
+        "D) tight is to snug",
+        "E) gentle is to kind"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym. Lax means loose and not strict enough, the opposite of strict, just as loose is the opposite of tight. The strongest trap, 'careless is to sloppy', plays on lax's meaning (a lax person can be careless), but careless and sloppy are synonyms, not opposites."
+    },
+    {
+      "stem": "lectern is to speaker as",
+      "choices": [
+        "A) chalkboard is to teacher",
+        "B) teacher is to chalkboard",
+        "C) speaker is to audience",
+        "D) stove is to kitchen",
+        "E) student is to teacher"
+      ],
+      "answerIndex": 0,
+      "bridge": "Worker:Tool",
+      "explanation": "Worker:Tool (here the tool then the worker who uses it). A lectern is the stand a speaker uses to hold notes, just as a chalkboard is a tool a teacher uses. The strongest trap, 'teacher is to chalkboard', has exactly the right pair but reverses it to worker-then-tool."
+    },
+    {
+      "stem": "meddlesome is to nosy as",
+      "choices": [
+        "A) nosy is to polite",
+        "B) quick is to fast",
+        "C) fast is to slow",
+        "D) shy is to bold",
+        "E) rude is to kind"
+      ],
+      "answerIndex": 1,
+      "bridge": "Synonym",
+      "explanation": "Synonym. Meddlesome and nosy both describe someone who pries into other people's business, so they mean nearly the same thing, just as quick and fast do. The strongest trap, 'nosy is to polite', reuses a stem word but pairs opposites rather than two words with the same meaning."
+    },
+    {
+      "stem": "mendacity is to honesty as",
+      "choices": [
+        "A) darkness is to light",
+        "B) honesty is to truth",
+        "C) lying is to cheating",
+        "D) light is to lamp",
+        "E) honesty is to trust"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym. Mendacity means lying and untruthfulness, the opposite of honesty, just as darkness is the opposite of light. The strongest trap, 'honesty is to truth', reuses a stem word but pairs two words that mean almost the same thing instead of opposites."
+    },
+    {
+      "stem": "meticulous is to careful as",
+      "choices": [
+        "A) careful is to careless",
+        "B) happy is to glad",
+        "C) messy is to neat",
+        "D) careful is to reckless",
+        "E) brave is to afraid"
+      ],
+      "answerIndex": 1,
+      "bridge": "Synonym",
+      "explanation": "Synonym. Meticulous means very careful and precise about details, so it means about the same as careful, just as happy means about the same as glad. The strongest trap, 'careful is to careless', reuses a stem word but pairs opposites rather than synonyms."
+    },
+    {
+      "stem": "migraine is to head as",
+      "choices": [
+        "A) cavity is to tooth",
+        "B) tooth is to cavity",
+        "C) headache is to migraine",
+        "D) bandage is to cut",
+        "E) fever is to cold"
+      ],
+      "answerIndex": 0,
+      "bridge": "Object:Location",
+      "explanation": "Object:Location. A migraine is a severe pain that occurs in the head, naming the ailment and the body part where it is felt, just as a cavity is decay that occurs in a tooth. The strongest trap, 'headache is to migraine', pairs a mild and a severe version of the same thing (degree), not an ailment and its location."
+    },
+    {
+      "stem": "MOOR is to boat as",
+      "choices": [
+        "A) park is to car",
+        "B) car is to park",
+        "C) sail is to ocean",
+        "D) drive is to road",
+        "E) fish is to lake"
+      ],
+      "answerIndex": 0,
+      "bridge": "Action:Object",
+      "explanation": "Action:Object -- to moor is the action you perform to bring a boat to rest and secure it, just as to park is the action you perform to bring a car to rest and secure it (action then the vehicle it acts on). The strongest trap, 'car is to park,' reverses the order to object-then-action, so the direction does not match."
+    },
+    {
+      "stem": "MORBID is to cheerful as",
+      "choices": [
+        "A) sad is to happy",
+        "B) gloomy is to miserable",
+        "C) dark is to dim",
+        "D) happy is to cheerful",
+        "E) tired is to sleepy"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym -- morbid (gloomy, fixated on death) is the opposite of cheerful, moving from a negative mood to a positive one, exactly like sad to happy. The strongest trap, 'gloomy is to miserable,' pairs two synonyms (both negative moods) instead of opposites, so it is not an antonym at all."
+    },
+    {
+      "stem": "MUNICIPAL is to city as",
+      "choices": [
+        "A) national is to country",
+        "B) country is to national",
+        "C) mayor is to city",
+        "D) urban is to farm",
+        "E) state is to nation"
+      ],
+      "answerIndex": 0,
+      "bridge": "Object:Location",
+      "explanation": "Object:Location -- municipal is the adjective meaning 'relating to a city,' so it pairs with the place it describes; national is the adjective 'relating to a country,' pairing with its place the same way. The strongest trap, 'mayor is to city,' uses the right place but pairs it with a person who leads it, not an adjective that describes it, so the relationship differs."
+    },
+    {
+      "stem": "MUNIFICENT is to generous as",
+      "choices": [
+        "A) gigantic is to big",
+        "B) big is to gigantic",
+        "C) generous is to selfish",
+        "D) small is to tiny",
+        "E) kind is to nice"
+      ],
+      "answerIndex": 0,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity -- munificent means extremely generous, so it is the intense version of a milder word, just as gigantic is the intense version of big (extreme then mild). The strongest trap, 'small is to tiny,' also links mild and intense but runs mild-to-extreme, the reverse direction."
+    },
+    {
+      "stem": "MURAL is to painting as",
+      "choices": [
+        "A) novel is to book",
+        "B) book is to novel",
+        "C) wall is to house",
+        "D) brush is to paint",
+        "E) frame is to picture"
+      ],
+      "answerIndex": 0,
+      "bridge": "Member:Category",
+      "explanation": "Member:Category -- a mural is one specific kind of painting, just as a novel is one specific kind of book (member then the broader category). The strongest trap, 'book is to novel,' reverses it to category-then-member, so the direction is wrong."
+    },
+    {
+      "stem": "MUSING is to reflection as",
+      "choices": [
+        "A) rest is to relaxation",
+        "B) noise is to silence",
+        "C) sleep is to dream",
+        "D) reflection is to action",
+        "E) thought is to speech"
+      ],
+      "answerIndex": 0,
+      "bridge": "Synonym",
+      "explanation": "Synonym -- a musing is a quiet period of reflection, so the two words mean nearly the same thing, just as rest and relaxation are near-synonyms. The strongest trap, 'noise is to silence,' pairs opposites instead of synonyms."
+    },
+    {
+      "stem": "NEBULOUS is to clear as",
+      "choices": [
+        "A) blurry is to sharp",
+        "B) foggy is to hazy",
+        "C) clear is to blurry",
+        "D) dark is to dim",
+        "E) vague is to unclear"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym -- nebulous means vague or hazy, the opposite of clear, moving from unclear to clear, exactly like blurry to sharp. The strongest trap, 'clear is to blurry,' is also an opposite pair but runs clear-to-unclear, the reverse direction."
+    },
+    {
+      "stem": "NEFARIOUS is to villain as",
+      "choices": [
+        "A) brave is to hero",
+        "B) hero is to brave",
+        "C) villain is to nefarious",
+        "D) kind is to bully",
+        "E) generous is to thief"
+      ],
+      "answerIndex": 0,
+      "bridge": "Trait:Person",
+      "explanation": "Trait:Person -- nefarious (wicked) is the defining trait of a villain, just as brave is the defining trait of a hero (trait then the person it fits). The strongest trap, 'hero is to brave,' uses a real match but reverses it to person-then-trait, so the direction is wrong."
+    },
+    {
+      "stem": "OAF is to fool as",
+      "choices": [
+        "A) sofa is to couch",
+        "B) fool is to genius",
+        "C) oaf is to expert",
+        "D) baby is to adult",
+        "E) clown is to circus"
+      ],
+      "answerIndex": 0,
+      "bridge": "Synonym",
+      "explanation": "Synonym -- an oaf is a clumsy, stupid person and a fool is a foolish person, so the words mean nearly the same thing, just as sofa and couch do. The strongest trap, 'fool is to genius,' pairs opposites instead of synonyms."
+    },
+    {
+      "stem": "ORNITHOLOGIST is to bird as",
+      "choices": [
+        "A) astronomer is to star",
+        "B) star is to astronomer",
+        "C) fish is to ocean",
+        "D) baker is to oven",
+        "E) teacher is to school"
+      ],
+      "answerIndex": 0,
+      "bridge": "Worker:Subject",
+      "explanation": "Worker:Subject -- an ornithologist is a scientist whose subject of study is birds, just as an astronomer is a scientist whose subject of study is stars (specialist then the thing studied). The strongest trap, 'star is to astronomer,' reverses it to subject-then-specialist, so the direction is wrong."
+    },
+    {
+      "stem": "PEDAGOGUE is to teacher as",
+      "choices": [
+        "A) automobile is to car",
+        "B) teacher is to student",
+        "C) doctor is to nurse",
+        "D) principal is to school",
+        "E) coach is to player"
+      ],
+      "answerIndex": 0,
+      "bridge": "Synonym",
+      "explanation": "Synonym -- a pedagogue is simply a teacher, so the two words mean the same thing, just as automobile and car do. The strongest trap, 'teacher is to student,' pairs two people who work together rather than two words with the same meaning."
+    },
+    {
+      "stem": "PEDESTAL is to statue as",
+      "choices": [
+        "A) shelf is to book",
+        "B) book is to shelf",
+        "C) painting is to wall",
+        "D) statue is to stone",
+        "E) table is to leg"
+      ],
+      "answerIndex": 0,
+      "bridge": "Object:Function",
+      "explanation": "Object:Function -- a pedestal's function is to hold up a statue, just as a shelf's function is to hold up books (support then the thing it holds). The strongest trap, 'book is to shelf,' reverses it to the thing-then-its-support, so the direction is wrong."
+    },
+    {
+      "stem": "perpetuate is to continue as",
+      "choices": [
+        "A) shout is to whisper",
+        "B) start is to end",
+        "C) shout is to yell",
+        "D) big is to small",
+        "E) walk is to run"
+      ],
+      "answerIndex": 2,
+      "bridge": "Synonym",
+      "explanation": "Synonym bridge: to perpetuate means to make something continue, so the two words mean the same thing. Shout and yell are also synonyms, same direction. The strongest trap, shout is to whisper, uses the same first word but pairs it with an opposite, an antonym, not a synonym."
+    },
+    {
+      "stem": "pertinent is to unrelated as",
+      "choices": [
+        "A) calm is to nervous",
+        "B) calm is to relaxed",
+        "C) brave is to bold",
+        "D) fast is to quick",
+        "E) rough is to bumpy"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym bridge: pertinent means directly relevant, so unrelated is its opposite. Calm and nervous are opposites in the same direction. The strongest trap, calm is to relaxed, reuses calm but pairs it with a synonym, not an antonym."
+    },
+    {
+      "stem": "peruse is to book as",
+      "choices": [
+        "A) meal is to eat",
+        "B) chef is to kitchen",
+        "C) sing is to singer",
+        "D) eat is to meal",
+        "E) book is to read"
+      ],
+      "answerIndex": 3,
+      "bridge": "Action:Object",
+      "explanation": "Action:Object bridge: to peruse is the action and a book is the thing you peruse, so it is verb then its object. Eat is to meal matches: eat is the action, meal is the object, same order. The strongest trap, meal is to eat, has the right words but reverses the order to object then action."
+    },
+    {
+      "stem": "pessimist is to gloomy as",
+      "choices": [
+        "A) fearful is to coward",
+        "B) coward is to fearful",
+        "C) doctor is to hospital",
+        "D) optimist is to gloomy",
+        "E) hero is to villain"
+      ],
+      "answerIndex": 1,
+      "bridge": "Trait:Person",
+      "explanation": "Trait:Person bridge: a pessimist is defined by being gloomy, so it is person then characteristic. Coward is to fearful matches: the coward is defined by being fearful, same order. The strongest trap, fearful is to coward, reverses to trait then person; optimist is to gloomy pairs a person with the wrong trait."
+    },
+    {
+      "stem": "petition is to request as",
+      "choices": [
+        "A) select is to reject",
+        "B) buy is to sell",
+        "C) give is to take",
+        "D) open is to close",
+        "E) select is to choose"
+      ],
+      "answerIndex": 4,
+      "bridge": "Synonym",
+      "explanation": "Synonym bridge: to petition is to formally request, so the words mean the same. Select and choose are also synonyms, same direction. The strongest trap, select is to reject, reuses select but pairs it with an opposite, an antonym, not a synonym."
+    },
+    {
+      "stem": "pine is to want as",
+      "choices": [
+        "A) like is to adore",
+        "B) happy is to sad",
+        "C) adore is to like",
+        "D) big is to huge",
+        "E) tired is to awake"
+      ],
+      "answerIndex": 2,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity bridge: to pine is to want something intensely, so it goes strong then mild. Adore is to like matches: adore is intense, like is mild, same order. The strongest trap, big is to huge, is also a degree pair but runs mild then strong, the reverse direction."
+    },
+    {
+      "stem": "pivot is to turn as",
+      "choices": [
+        "A) leap is to jump",
+        "B) push is to pull",
+        "C) rise is to sink",
+        "D) throw is to catch",
+        "E) leap is to fall"
+      ],
+      "answerIndex": 0,
+      "bridge": "Synonym",
+      "explanation": "Synonym bridge: to pivot is to turn around a point, so the words mean the same. Leap and jump are also synonyms. The strongest trap, leap is to fall, reuses leap but fall is not a synonym for it; push is to pull is an antonym pair."
+    },
+    {
+      "stem": "plumage is to bird as",
+      "choices": [
+        "A) cat is to fur",
+        "B) fin is to fish",
+        "C) petal is to flower",
+        "D) fur is to cat",
+        "E) claw is to bear"
+      ],
+      "answerIndex": 3,
+      "bridge": "Part:Whole",
+      "explanation": "Part:Whole bridge: plumage is the full natural covering of a bird, so it is covering then the whole animal. Fur is to cat matches: fur is the covering of the whole cat, same order. The strongest trap, cat is to fur, reverses the order; fin and claw are single body parts, not a full covering."
+    },
+    {
+      "stem": "poignant is to sad as",
+      "choices": [
+        "A) tired is to exhausted",
+        "B) exhausted is to tired",
+        "C) freezing is to warm",
+        "D) hungry is to full",
+        "E) loud is to noisy"
+      ],
+      "answerIndex": 1,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity bridge: poignant means deeply, sharply sad, an intense form of sad, so it goes strong then mild. Exhausted is to tired matches: exhausted is intensely tired, same order. The strongest trap, tired is to exhausted, has the right words but runs mild then strong, the reverse direction."
+    },
+    {
+      "stem": "pompous is to humble as",
+      "choices": [
+        "A) generous is to giving",
+        "B) kind is to caring",
+        "C) brave is to bold",
+        "D) honest is to truthful",
+        "E) generous is to selfish"
+      ],
+      "answerIndex": 4,
+      "bridge": "Antonym",
+      "explanation": "Antonym bridge: pompous means self-important, so humble is its opposite. Generous is to selfish are opposites in the same direction. The strongest trap, generous is to giving, reuses generous but pairs it with a synonym, not an antonym."
+    },
+    {
+      "stem": "porous is to solid as",
+      "choices": [
+        "A) rough is to bumpy",
+        "B) hard is to firm",
+        "C) rough is to smooth",
+        "D) wet is to damp",
+        "E) cold is to chilly"
+      ],
+      "answerIndex": 2,
+      "bridge": "Antonym",
+      "explanation": "Antonym bridge: porous means full of holes that let liquid through, so solid, with no holes, is its opposite. Rough is to smooth are opposites in the same direction. The strongest trap, rough is to bumpy, reuses rough but pairs it with a synonym, not an antonym."
+    },
+    {
+      "stem": "presage is to predict as",
+      "choices": [
+        "A) reply is to answer",
+        "B) leave is to arrive",
+        "C) remember is to forget",
+        "D) build is to destroy",
+        "E) reply is to ask"
+      ],
+      "answerIndex": 0,
+      "bridge": "Synonym",
+      "explanation": "Synonym bridge: to presage is to be a sign that foretells something, so it means the same as predict. Reply and answer are also synonyms. The strongest trap, reply is to ask, reuses reply but ask is its near-opposite, questioning versus answering, not a synonym."
+    },
+    {
+      "stem": "PRIVATIONS is to HARDSHIPS as",
+      "choices": [
+        "A) wealth is to poverty",
+        "B) storm is to calm",
+        "C) blessings is to gifts",
+        "D) blessings is to curses",
+        "E) rich is to poor"
+      ],
+      "answerIndex": 2,
+      "bridge": "Synonym",
+      "explanation": "Synonym: privations and hardships both mean troubles from lacking what you need, and blessings and gifts are likewise the same idea in the same direction. The strongest trap, 'blessings is to curses,' reuses the word blessings but pairs it with its opposite, so it is an antonym, not a synonym."
+    },
+    {
+      "stem": "PULPIT is to PREACHER as",
+      "choices": [
+        "A) stage is to actor",
+        "B) chef is to kitchen",
+        "C) actor is to stage",
+        "D) preacher is to sermon",
+        "E) captain is to ship"
+      ],
+      "answerIndex": 0,
+      "bridge": "Object:Location",
+      "explanation": "Object:Location (workplace, then the worker): a pulpit is the raised place from which a preacher speaks, just as a stage is the place from which an actor performs, with the place named first. The strongest trap, 'actor is to stage,' has the exact right pair but names the worker before the place, reversing the order."
+    },
+    {
+      "stem": "PUNCTURE is to TIRE as",
+      "choices": [
+        "A) ball is to kick",
+        "B) ball is to round",
+        "C) player is to ball",
+        "D) kick is to ball",
+        "E) ball is to bat"
+      ],
+      "answerIndex": 3,
+      "bridge": "Action:Object",
+      "explanation": "Action:Object: to puncture is an action done to a tire, just as to kick is an action done to a ball, with the verb first and the thing acted on second. The strongest trap, 'ball is to kick,' uses the same two words but reverses them so the object comes before the action."
+    },
+    {
+      "stem": "QUALM is to CONFIDENCE as",
+      "choices": [
+        "A) fear is to terror",
+        "B) doubt is to certainty",
+        "C) certainty is to doubt",
+        "D) worry is to fear",
+        "E) calm is to peace"
+      ],
+      "answerIndex": 1,
+      "bridge": "Antonym",
+      "explanation": "Antonym: a qualm is a feeling of uneasy doubt, the opposite of confidence, just as doubt is the opposite of certainty in the same direction (unsure, then sure). The strongest trap, 'certainty is to doubt,' is the same opposites but flipped to sure-then-unsure, the reverse direction."
+    },
+    {
+      "stem": "QUANDARY is to PROBLEM as",
+      "choices": [
+        "A) flower is to rose",
+        "B) petal is to flower",
+        "C) flower is to garden",
+        "D) flower is to red",
+        "E) rose is to flower"
+      ],
+      "answerIndex": 4,
+      "bridge": "Member:Category",
+      "explanation": "Member:Category: a quandary is one specific kind of problem, just as a rose is one specific kind of flower, moving from the narrow example to the broad group. The strongest trap, 'flower is to rose,' names the broad group first and the example second, reversing the direction."
+    },
+    {
+      "stem": "RAMPART is to CASTLE as",
+      "choices": [
+        "A) car is to wheel",
+        "B) car is to driver",
+        "C) wheel is to car",
+        "D) tire is to rubber",
+        "E) car is to garage"
+      ],
+      "answerIndex": 2,
+      "bridge": "Part:Whole",
+      "explanation": "Part:Whole: a rampart is a part of a castle, just as a wheel is a part of a car, with the part named first and the whole second. The strongest trap, 'car is to wheel,' uses the same pair but names the whole before the part, reversing the direction."
+    },
+    {
+      "stem": "RECEPTACLE is to HOLD as",
+      "choices": [
+        "A) broom is to sweep",
+        "B) sweep is to broom",
+        "C) broom is to closet",
+        "D) broom is to bristles",
+        "E) mop is to broom"
+      ],
+      "answerIndex": 0,
+      "bridge": "Object:Function",
+      "explanation": "Object:Function: a receptacle is a thing used to hold, just as a broom is a thing used to sweep, naming the object and then what it does. The strongest trap, 'sweep is to broom,' reverses this by putting the action before the object."
+    },
+    {
+      "stem": "REFUGE is to SHELTER as",
+      "choices": [
+        "A) friend is to enemy",
+        "B) friend is to stranger",
+        "C) happy is to sad",
+        "D) friend is to pal",
+        "E) friend is to group"
+      ],
+      "answerIndex": 3,
+      "bridge": "Synonym",
+      "explanation": "Synonym: a refuge is the same as a shelter, a safe place from danger, just as a friend is the same as a pal. The strongest trap, 'friend is to enemy,' pairs friend with its opposite, making it an antonym rather than a synonym."
+    },
+    {
+      "stem": "REGALE is to BORE as",
+      "choices": [
+        "A) annoy is to please",
+        "B) please is to annoy",
+        "C) entertain is to amuse",
+        "D) laugh is to giggle",
+        "E) cheer is to clap"
+      ],
+      "answerIndex": 1,
+      "bridge": "Antonym",
+      "explanation": "Antonym: to regale is to entertain and delight, the opposite of to bore, just as to please is the opposite of to annoy in the same direction (delight, then displease). The strongest trap, 'annoy is to please,' is the same opposites flipped to displease-then-delight, the reverse direction."
+    },
+    {
+      "stem": "REGIMEN is to PLAN as",
+      "choices": [
+        "A) bird is to robin",
+        "B) bird is to feather",
+        "C) bird is to nest",
+        "D) bird is to sky",
+        "E) robin is to bird"
+      ],
+      "answerIndex": 4,
+      "bridge": "Member:Category",
+      "explanation": "Member:Category: a regimen is one specific kind of plan (a set routine you follow), just as a robin is one specific kind of bird, moving from the narrow example to the broad group. The strongest trap, 'bird is to robin,' names the broad group first, reversing the direction."
+    },
+    {
+      "stem": "REMEDY is to RECOVERY as",
+      "choices": [
+        "A) flood is to rain",
+        "B) rain is to cloud",
+        "C) rain is to flood",
+        "D) rain is to umbrella",
+        "E) rain is to water"
+      ],
+      "answerIndex": 2,
+      "bridge": "Cause:Effect",
+      "explanation": "Cause:Effect: a remedy brings about recovery, just as rain brings about a flood, with the cause named first and its result second. The strongest trap, 'flood is to rain,' uses the same pair but names the result before the cause, reversing the direction."
+    },
+    {
+      "stem": "REPENT is to FORGIVENESS as",
+      "choices": [
+        "A) study is to knowledge",
+        "B) knowledge is to study",
+        "C) study is to school",
+        "D) study is to test",
+        "E) study is to book"
+      ],
+      "answerIndex": 0,
+      "bridge": "Cause:Effect",
+      "explanation": "Cause:Effect: to repent, being sorry and resolving to do better, leads to forgiveness, just as to study leads to knowledge, with the action named first and its result second. The strongest trap, 'knowledge is to study,' reverses this by naming the result before the action."
+    },
+    {
+      "stem": "repentant is to sorry as",
+      "choices": [
+        "A) glad is to happy",
+        "B) angry is to calm",
+        "C) tired is to sleep",
+        "D) big is to giant",
+        "E) happy is to sad"
+      ],
+      "answerIndex": 0,
+      "bridge": "Synonym",
+      "explanation": "Bridge is Synonym: 'repentant' means feeling sorry, so a word is paired with its synonym. 'Glad is to happy' is the only pair of true synonyms in the same direction. The strongest trap, 'happy is to sad,' flips the relationship into antonyms."
+    },
+    {
+      "stem": "repulsive is to disgust as",
+      "choices": [
+        "A) fear is to scary",
+        "B) funny is to sad",
+        "C) scary is to fear",
+        "D) calm is to nervous",
+        "E) laugh is to funny"
+      ],
+      "answerIndex": 2,
+      "bridge": "Cause:Effect",
+      "explanation": "Bridge is Cause:Effect: something repulsive causes disgust, so a quality is paired with the emotion it produces. 'Scary is to fear' fits because scary things cause fear. The strongest trap, 'fear is to scary,' reverses the order to emotion-then-cause."
+    },
+    {
+      "stem": "resolute is to determined as",
+      "choices": [
+        "A) angry is to furious",
+        "B) tired is to awake",
+        "C) happy is to sad",
+        "D) furious is to angry",
+        "E) small is to tiny"
+      ],
+      "answerIndex": 3,
+      "bridge": "Degree/Intensity",
+      "explanation": "Bridge is Degree/Intensity: 'resolute' is an intense form of 'determined,' so the pair runs strong word to milder word. 'Furious is to angry' matches (furious = very angry). The strongest trap, 'angry is to furious,' reverses it to mild-then-strong."
+    },
+    {
+      "stem": "revamp is to improve as",
+      "choices": [
+        "A) break is to fix",
+        "B) build is to destroy",
+        "C) walk is to run",
+        "D) buy is to sell",
+        "E) assist is to help"
+      ],
+      "answerIndex": 4,
+      "bridge": "Synonym",
+      "explanation": "Bridge is Synonym: to 'revamp' is to improve, so a verb is paired with its synonym. 'Assist is to help' is the only synonym pair. The strongest trap, 'break is to fix,' is an antonym pair."
+    },
+    {
+      "stem": "rite is to tradition as",
+      "choices": [
+        "A) bird is to robin",
+        "B) robin is to bird",
+        "C) petal is to flower",
+        "D) tree is to forest",
+        "E) dog is to cat"
+      ],
+      "answerIndex": 1,
+      "bridge": "Member:Category",
+      "explanation": "Bridge is Member:Category: a rite is a type of tradition, so a member is paired with its larger category. 'Robin is to bird' fits (a robin is a type of bird). The strongest trap, 'tree is to forest,' is part-to-whole (trees make up a forest), not type-to-category."
+    },
+    {
+      "stem": "royalty is to payment as",
+      "choices": [
+        "A) car is to sedan",
+        "B) wheel is to car",
+        "C) sedan is to car",
+        "D) money is to wallet",
+        "E) truck is to bus"
+      ],
+      "answerIndex": 2,
+      "bridge": "Member:Category",
+      "explanation": "Bridge is Member:Category: a royalty is a type of payment, so a member is paired with its category. 'Sedan is to car' fits (a sedan is a type of car). The strongest trap, 'wheel is to car,' is part-to-whole."
+    },
+    {
+      "stem": "salve is to soothe as",
+      "choices": [
+        "A) warm is to blanket",
+        "B) fork is to sharp",
+        "C) blanket is to warm",
+        "D) shoe is to foot",
+        "E) fire is to hot"
+      ],
+      "answerIndex": 2,
+      "bridge": "Object:Function",
+      "explanation": "Bridge is Object:Function: a salve's purpose is to soothe, so an object is paired with what it does. 'Blanket is to warm' fits (a blanket's job is to warm you). The strongest trap, 'warm is to blanket,' reverses the direction."
+    },
+    {
+      "stem": "scrape is to injury as",
+      "choices": [
+        "A) dog is to poodle",
+        "B) tail is to dog",
+        "C) leash is to dog",
+        "D) poodle is to dog",
+        "E) puppy is to adult"
+      ],
+      "answerIndex": 3,
+      "bridge": "Member:Category",
+      "explanation": "Bridge is Member:Category: a scrape is a type of injury, so a member is paired with its category. 'Poodle is to dog' fits (a poodle is a type of dog). The strongest trap, 'tail is to dog,' is part-to-whole."
+    },
+    {
+      "stem": "sheepish is to embarrassed as",
+      "choices": [
+        "A) afraid is to scared",
+        "B) brave is to afraid",
+        "C) happy is to thrilled",
+        "D) calm is to nervous",
+        "E) tired is to rest"
+      ],
+      "answerIndex": 0,
+      "bridge": "Synonym",
+      "explanation": "Bridge is Synonym: 'sheepish' means embarrassed, so a word is paired with its synonym. 'Afraid is to scared' is the matching synonym pair. The strongest trap, 'happy is to thrilled,' is Degree/Intensity (thrilled = very happy), not an equal synonym."
+    },
+    {
+      "stem": "shroud is to reveal as",
+      "choices": [
+        "A) cover is to hide",
+        "B) shut is to close",
+        "C) hide is to show",
+        "D) whisper is to talk",
+        "E) build is to make"
+      ],
+      "answerIndex": 2,
+      "bridge": "Antonym",
+      "explanation": "Bridge is Antonym: to 'shroud' is to hide, the opposite of reveal, so a word is paired with its opposite. 'Hide is to show' is the only antonym pair. The strongest trap, 'cover is to hide,' is a synonym pair (both mean to conceal)."
+    },
+    {
+      "stem": "slalom is to snow as",
+      "choices": [
+        "A) ocean is to surfing",
+        "B) sand is to beach",
+        "C) boat is to sail",
+        "D) swim is to splash",
+        "E) surfing is to ocean"
+      ],
+      "answerIndex": 4,
+      "bridge": "Object:Location",
+      "explanation": "Bridge is Object:Location: a slalom takes place on snow, pairing an activity with where it happens. 'Surfing is to ocean' fits (surfing happens in the ocean). The strongest trap, 'ocean is to surfing,' reverses the direction."
+    },
+    {
+      "stem": "spoof is to mock as",
+      "choices": [
+        "A) wake is to alarm",
+        "B) bell is to loud",
+        "C) siren is to fire",
+        "D) alarm is to wake",
+        "E) sleep is to bed"
+      ],
+      "answerIndex": 3,
+      "bridge": "Object:Function",
+      "explanation": "Bridge is Object:Function: a spoof's purpose is to mock, pairing a thing with what it does. 'Alarm is to wake' fits (an alarm's job is to wake you). The strongest trap, 'wake is to alarm,' reverses the direction."
+    },
+    {
+      "stem": "spry is to lively as",
+      "choices": [
+        "A) happy is to glad",
+        "B) fast is to slow",
+        "C) warm is to hot",
+        "D) sleepy is to bed",
+        "E) big is to house"
+      ],
+      "answerIndex": 0,
+      "bridge": "Synonym",
+      "explanation": "Synonym: spry means lively/energetic, so the pair is two words that mean the same thing. 'happy is to glad' are synonyms in the same way. The strongest trap, C 'warm is to hot,' is Degree/Intensity (hot is a stronger warm), not a true synonym, so it fails."
+    },
+    {
+      "stem": "squall is to wind as",
+      "choices": [
+        "A) oak is to tree",
+        "B) tree is to oak",
+        "C) petal is to flower",
+        "D) puppy is to kitten",
+        "E) forest is to oak"
+      ],
+      "answerIndex": 0,
+      "bridge": "Member:Category",
+      "explanation": "Member:Category: a squall is a specific kind of wind, just as an oak is a specific kind of tree. The strongest trap, B 'tree is to oak,' reverses the direction (a tree is not a kind of oak), so it fails."
+    },
+    {
+      "stem": "stanch is to blood as",
+      "choices": [
+        "A) mop is to floor",
+        "B) floor is to mop",
+        "C) mop is to bucket",
+        "D) mop is to clean",
+        "E) sweep is to broom"
+      ],
+      "answerIndex": 0,
+      "bridge": "Action:Object",
+      "explanation": "Action:Object: to stanch is the action you perform on blood, just as to mop is the action you perform on a floor. The strongest trap, B 'floor is to mop,' reverses the order (object then action), so it fails."
+    },
+    {
+      "stem": "strewn is to scattered as",
+      "choices": [
+        "A) glad is to happy",
+        "B) glad is to sad",
+        "C) glad is to smile",
+        "D) big is to bigger",
+        "E) glad is to party"
+      ],
+      "answerIndex": 0,
+      "bridge": "Synonym",
+      "explanation": "Synonym: strewn means scattered, so the pair is two words with the same meaning. 'glad is to happy' matches. The strongest trap, B 'glad is to sad,' is an Antonym pair, the opposite relationship, so it fails."
+    },
+    {
+      "stem": "subtle is to obvious as",
+      "choices": [
+        "A) quiet is to loud",
+        "B) quiet is to silent",
+        "C) dark is to dim",
+        "D) quiet is to library",
+        "E) loud is to shout"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym: subtle (hard to notice) is the opposite of obvious, just as quiet is the opposite of loud. The strongest trap, B 'quiet is to silent,' is a Synonym/Degree pair (both mean not loud), not opposites, so it fails."
+    },
+    {
+      "stem": "sumptuous is to nice as",
+      "choices": [
+        "A) freezing is to cold",
+        "B) cold is to freezing",
+        "C) warm is to hot",
+        "D) hot is to cold",
+        "E) nice is to mean"
+      ],
+      "answerIndex": 0,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity: sumptuous is an extreme version of nice (from strong down to normal), just as freezing is an extreme version of cold. The strongest trap, B 'cold is to freezing,' runs the intensity the wrong way (normal up to extreme), so it fails."
+    },
+    {
+      "stem": "supplicate is to ask as",
+      "choices": [
+        "A) sprint is to run",
+        "B) run is to sprint",
+        "C) beg is to plead",
+        "D) whisper is to shout",
+        "E) walk is to path"
+      ],
+      "answerIndex": 0,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity: to supplicate is to ask in an intense, desperate way, just as to sprint is to run in an intense way (strong to normal). The strongest trap, B 'run is to sprint,' reverses the direction (normal to strong), so it fails."
+    },
+    {
+      "stem": "surfeit is to shortage as",
+      "choices": [
+        "A) hot is to cold",
+        "B) hot is to warm",
+        "C) hot is to fire",
+        "D) big is to large",
+        "E) hot is to sun"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym: a surfeit (too much) is the opposite of a shortage (too little), just as hot is the opposite of cold. The strongest trap, B 'hot is to warm,' is a Degree pair (both are warm-ish), not opposites, so it fails."
+    },
+    {
+      "stem": "surreptitious is to secret as",
+      "choices": [
+        "A) tiny is to small",
+        "B) tiny is to huge",
+        "C) big is to small",
+        "D) small is to smaller",
+        "E) tiny is to bug"
+      ],
+      "answerIndex": 0,
+      "bridge": "Synonym",
+      "explanation": "Synonym: surreptitious means done in secret, so the pair is two words with the same meaning. 'tiny is to small' matches. The strongest trap, B 'tiny is to huge,' is an Antonym pair, the opposite relationship, so it fails."
+    },
+    {
+      "stem": "taciturn is to talkative as",
+      "choices": [
+        "A) shy is to bold",
+        "B) shy is to timid",
+        "C) bold is to brave",
+        "D) shy is to nervous",
+        "E) shy is to crowd"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym: taciturn (says very little) is the opposite of talkative, just as shy is the opposite of bold. The strongest trap, B 'shy is to timid,' is a Synonym pair (both mean reserved), not opposites, so it fails."
+    },
+    {
+      "stem": "tirade is to speech as",
+      "choices": [
+        "A) novel is to book",
+        "B) book is to novel",
+        "C) chapter is to book",
+        "D) author is to book",
+        "E) library is to book"
+      ],
+      "answerIndex": 0,
+      "bridge": "Member:Category",
+      "explanation": "Member:Category: a tirade is a specific kind of speech, just as a novel is a specific kind of book. The strongest trap, B 'book is to novel,' reverses the direction (a book is not a kind of novel), so it fails."
+    },
+    {
+      "stem": "transcendent is to good as",
+      "choices": [
+        "A) enormous is to big",
+        "B) big is to enormous",
+        "C) good is to bad",
+        "D) huge is to giant",
+        "E) small is to tiny"
+      ],
+      "answerIndex": 0,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity: transcendent is an extreme, far-beyond version of good (strong down to normal), just as enormous is an extreme version of big. The strongest trap, E 'small is to tiny,' runs the intensity the wrong way (normal up to extreme), so it fails."
+    },
+    {
+      "stem": "TRAVAIL is to WORK as",
+      "choices": [
+        "A) rain is to downpour",
+        "B) downpour is to rain",
+        "C) breeze is to wind",
+        "D) job is to hobby",
+        "E) puddle is to flood"
+      ],
+      "answerIndex": 1,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity: travail is an extreme, painful form of work, just as a downpour is an intense form of rain (intense form -> base form). The strongest trap, 'rain is to downpour,' runs the opposite direction (base -> intense), so it fails."
+    },
+    {
+      "stem": "TRAVESTY is to MOCKERY as",
+      "choices": [
+        "A) trash is to garbage",
+        "B) trash is to treasure",
+        "C) laughter is to joke",
+        "D) copy is to original",
+        "E) praise is to insult"
+      ],
+      "answerIndex": 0,
+      "bridge": "Synonym",
+      "explanation": "Synonym: a travesty means essentially the same thing as a mockery, just as trash means the same as garbage. The strongest trap, 'trash is to treasure,' pairs opposites rather than synonyms, so it fails."
+    },
+    {
+      "stem": "UPBRAID is to PRAISE as",
+      "choices": [
+        "A) scold is to compliment",
+        "B) scold is to yell",
+        "C) frown is to scowl",
+        "D) praise is to applause",
+        "E) shout is to speak"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym: to upbraid (scold sharply) is the opposite of to praise, just as to scold is the opposite of to compliment (negative -> positive). The strongest trap, 'scold is to yell,' pairs two similar negative actions, not opposites, so it fails."
+    },
+    {
+      "stem": "VANDALIZE is to PROPERTY as",
+      "choices": [
+        "A) book is to read",
+        "B) read is to book",
+        "C) paint is to brush",
+        "D) drive is to road",
+        "E) write is to eraser"
+      ],
+      "answerIndex": 1,
+      "bridge": "Action:Object",
+      "explanation": "Action:Object: to vandalize acts upon property, just as to read acts upon a book (verb -> thing acted on). The strongest trap, 'book is to read,' reverses the object and the action, so it fails."
+    },
+    {
+      "stem": "VERACIOUS is to TRUTHFUL as",
+      "choices": [
+        "A) quick is to fast",
+        "B) quick is to slow",
+        "C) fast is to race",
+        "D) honest is to liar",
+        "E) true is to false"
+      ],
+      "answerIndex": 0,
+      "bridge": "Synonym",
+      "explanation": "Synonym: veracious means the same as truthful, just as quick means the same as fast. The strongest trap, 'quick is to slow,' pairs opposites rather than synonyms, so it fails."
+    },
+    {
+      "stem": "VOLATILE is to STABLE as",
+      "choices": [
+        "A) calm is to peaceful",
+        "B) wild is to tame",
+        "C) tame is to gentle",
+        "D) steady is to firm",
+        "E) shaky is to unstable"
+      ],
+      "answerIndex": 1,
+      "bridge": "Antonym",
+      "explanation": "Antonym: volatile (wildly changing) is the opposite of stable, just as wild is the opposite of tame (uncontrolled -> controlled). The strongest trap, 'calm is to peaceful,' pairs synonyms, not opposites, so it fails."
+    },
+    {
+      "stem": "WONT is to HABIT as",
+      "choices": [
+        "A) gift is to present",
+        "B) gift is to birthday",
+        "C) reward is to punishment",
+        "D) present is to future",
+        "E) work is to rest"
+      ],
+      "answerIndex": 0,
+      "bridge": "Synonym",
+      "explanation": "Synonym: a wont is the same as a habit, just as a gift is the same as a present. The strongest trap, 'reward is to punishment,' pairs opposites rather than synonyms, so it fails."
+    },
+    {
+      "stem": "ABERRATION is to NORMAL as",
+      "choices": [
+        "A) night is to day",
+        "B) night is to moon",
+        "C) day is to hour",
+        "D) summer is to hot",
+        "E) morning is to noon"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym: an aberration is a departure from what is normal, making it the opposite of normal, just as night is the opposite of day. The strongest trap, 'night is to moon,' is an association (night brings out the moon), not opposition, so it fails."
+    },
+    {
+      "stem": "ACQUIT is to CONVICT as",
+      "choices": [
+        "A) free is to trap",
+        "B) free is to release",
+        "C) trap is to cage",
+        "D) judge is to court",
+        "E) guilty is to sorry"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Antonym: to acquit (declare not guilty) is the opposite of to convict, just as to free is the opposite of to trap (release -> confine). The strongest trap, 'free is to release,' pairs synonyms, not opposites, so it fails."
+    },
+    {
+      "stem": "AGHAST is to SURPRISED as",
+      "choices": [
+        "A) annoyed is to furious",
+        "B) furious is to annoyed",
+        "C) glad is to happy",
+        "D) sad is to upset",
+        "E) tired is to sleepy"
+      ],
+      "answerIndex": 1,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity: aghast is an extreme form of surprised, just as furious is an extreme form of annoyed (intense -> mild). The strongest trap, 'annoyed is to furious,' runs the opposite direction (mild -> intense), so it fails."
+    },
+    {
+      "stem": "ALLURING is to ATTRACTION as",
+      "choices": [
+        "A) funny is to laughter",
+        "B) laughter is to funny",
+        "C) joke is to comedian",
+        "D) happy is to sad",
+        "E) loud is to music"
+      ],
+      "answerIndex": 0,
+      "bridge": "Cause:Effect",
+      "explanation": "Cause:Effect: something alluring causes attraction, just as something funny causes laughter (cause -> effect). The strongest trap, 'laughter is to funny,' reverses the effect and the cause, so it fails."
+    },
+    {
+      "stem": "AMPLE is to PLENTIFUL as",
+      "choices": [
+        "A) huge is to enormous",
+        "B) huge is to tiny",
+        "C) enormous is to elephant",
+        "D) many is to few",
+        "E) full is to empty"
+      ],
+      "answerIndex": 0,
+      "bridge": "Synonym",
+      "explanation": "Synonym: ample means the same as plentiful, just as huge means the same as enormous. The strongest trap, 'huge is to tiny,' pairs opposites rather than synonyms, so it fails."
+    },
+    {
+      "stem": "appeal is to attract as",
+      "choices": [
+        "A) push is to pull",
+        "B) shout is to whisper",
+        "C) leap is to jump",
+        "D) speak is to yell",
+        "E) jump is to fall"
+      ],
+      "answerIndex": 2,
+      "bridge": "Synonym",
+      "explanation": "Bridge is Synonym: to appeal is to attract, so the answer is another same-direction synonym pair. 'Leap is to jump' are synonyms. The strongest trap, 'speak is to yell,' is a degree pair (yell is louder speech), not a synonym; 'push is to pull' and 'shout is to whisper' are antonyms."
+    },
+    {
+      "stem": "assist is to hinder as",
+      "choices": [
+        "A) build is to destroy",
+        "B) build is to create",
+        "C) fix is to repair",
+        "D) help is to aid",
+        "E) destroy is to ruin"
+      ],
+      "answerIndex": 0,
+      "bridge": "Antonym",
+      "explanation": "Bridge is Antonym: to assist is the opposite of to hinder, so the answer needs opposites in the same order (a helping word, then an opposing word). 'Build is to destroy' fits. The traps 'build is to create,' 'fix is to repair,' 'help is to aid,' and 'destroy is to ruin' are all synonym pairs, not opposites."
+    },
+    {
+      "stem": "avenue is to street as",
+      "choices": [
+        "A) bird is to robin",
+        "B) wing is to bird",
+        "C) fish is to shark",
+        "D) robin is to bird",
+        "E) robin is to nest"
+      ],
+      "answerIndex": 3,
+      "bridge": "Member:Category",
+      "explanation": "Bridge is Member:Category: an avenue is a specific type of street, so the answer goes specific-to-general. 'Robin is to bird' matches. 'Bird is to robin' and 'fish is to shark' reverse the direction; 'wing is to bird' is part-to-whole; 'robin is to nest' pairs an animal with its home."
+    },
+    {
+      "stem": "barracks is to soldiers as",
+      "choices": [
+        "A) horses is to stable",
+        "B) stable is to horses",
+        "C) barn is to farmer",
+        "D) kitchen is to house",
+        "E) nest is to tree"
+      ],
+      "answerIndex": 1,
+      "bridge": "Object:Location",
+      "explanation": "Bridge is Object:Location (a dwelling and those who live in it): a barracks is the building where soldiers live, just as a stable is where horses live. 'Horses is to stable' reverses it; 'barn is to farmer' fails because a farmer works in but does not live in a barn; 'kitchen is to house' is part-to-whole."
+    },
+    {
+      "stem": "blunder is to mistake as",
+      "choices": [
+        "A) downpour is to rain",
+        "B) rain is to downpour",
+        "C) drizzle is to rain",
+        "D) storm is to weather",
+        "E) puddle is to lake"
+      ],
+      "answerIndex": 0,
+      "bridge": "Degree/Intensity",
+      "explanation": "Bridge is Degree/Intensity: a blunder is an extreme mistake, so the answer is an intense-to-ordinary pair in the same direction. 'Downpour is to rain' (heavy rain to ordinary rain) fits. The strongest trap, 'drizzle is to rain,' runs mild-to-ordinary, the wrong intensity direction; 'rain is to downpour' is fully reversed."
+    },
+    {
+      "stem": "bulwark is to protect as",
+      "choices": [
+        "A) protect is to bulwark",
+        "B) lock is to door",
+        "C) lock is to secure",
+        "D) attack is to defend",
+        "E) key is to lock"
+      ],
+      "answerIndex": 2,
+      "bridge": "Object:Function",
+      "explanation": "Bridge is Object:Function: a bulwark's purpose is to protect, just as a lock's purpose is to secure. 'Protect is to bulwark' reverses it; 'lock is to door' is object-to-location; 'attack is to defend' are antonyms; 'key is to lock' pairs two objects."
+    },
+    {
+      "stem": "cascading is to pouring as",
+      "choices": [
+        "A) soaked is to dry",
+        "B) gigantic is to huge",
+        "C) damp is to soaked",
+        "D) rising is to falling",
+        "E) fall is to trip"
+      ],
+      "answerIndex": 1,
+      "bridge": "Synonym",
+      "explanation": "Bridge is Synonym: cascading and pouring both describe water flowing heavily downward. 'Gigantic is to huge' are synonyms too. The strongest trap, 'damp is to soaked,' is a degree pair; 'soaked is to dry' and 'rising is to falling' are antonyms; 'fall is to trip' is cause and effect."
+    },
+    {
+      "stem": "chest is to store as",
+      "choices": [
+        "A) store is to chest",
+        "B) oven is to kitchen",
+        "C) chest is to wood",
+        "D) oven is to bake",
+        "E) bake is to cook"
+      ],
+      "answerIndex": 3,
+      "bridge": "Object:Function",
+      "explanation": "Bridge is Object:Function: a chest is used to store things, just as an oven is used to bake. 'Store is to chest' reverses it; 'oven is to kitchen' is object-to-location; 'chest is to wood' is object-to-material; 'bake is to cook' are synonyms."
+    },
+    {
+      "stem": "clandestine is to open as",
+      "choices": [
+        "A) shout is to whisper",
+        "B) whisper is to shout",
+        "C) quiet is to silent",
+        "D) loud is to noisy",
+        "E) hide is to cover"
+      ],
+      "answerIndex": 1,
+      "bridge": "Antonym",
+      "explanation": "Bridge is Antonym: clandestine (hidden and quiet) is the opposite of open (exposed), matching 'whisper is to shout' (concealed and quiet to loud and exposed). 'Shout is to whisper' reverses the direction; 'quiet is to silent,' 'loud is to noisy,' and 'hide is to cover' are synonym pairs."
+    },
+    {
+      "stem": "complaint is to praise as",
+      "choices": [
+        "A) compliment is to insult",
+        "B) praise is to cheer",
+        "C) insult is to compliment",
+        "D) insult is to tease",
+        "E) complaint is to protest"
+      ],
+      "answerIndex": 2,
+      "bridge": "Antonym",
+      "explanation": "Bridge is Antonym: a complaint is negative while praise is positive, so the answer is a negative-to-positive pair. 'Insult is to compliment' fits. 'Compliment is to insult' reverses it; 'insult is to tease' is not a clean opposite; 'praise is to cheer' and 'complaint is to protest' are synonyms."
+    },
+    {
+      "stem": "confound is to confuse as",
+      "choices": [
+        "A) confuse is to confound",
+        "B) like is to love",
+        "C) dislike is to hate",
+        "D) love is to hate",
+        "E) adore is to like"
+      ],
+      "answerIndex": 4,
+      "bridge": "Degree/Intensity",
+      "explanation": "Bridge is Degree/Intensity: to confound is to confuse completely, an intense-to-mild pair. 'Adore is to like' matches (intense liking to mild liking). 'Confuse is to confound' reverses it; 'like is to love' and 'dislike is to hate' run mild-to-intense, the wrong direction; 'love is to hate' are antonyms."
+    },
+    {
+      "stem": "covertly is to secretly as",
+      "choices": [
+        "A) quickly is to rapidly",
+        "B) quickly is to slowly",
+        "C) rarely is to often",
+        "D) softly is to loudly",
+        "E) rapidly is to suddenly"
+      ],
+      "answerIndex": 0,
+      "bridge": "Synonym",
+      "explanation": "Bridge is Synonym: covertly and secretly are synonyms, both meaning in a hidden way. 'Quickly is to rapidly' are synonyms too. 'Quickly is to slowly,' 'rarely is to often,' and 'softly is to loudly' are antonym pairs; 'rapidly is to suddenly' are related but not true synonyms."
+    },
+    {
+      "stem": "critic is to review as",
+      "choices": [
+        "A) review is to critic",
+        "B) baker is to bread",
+        "C) reader is to book",
+        "D) painter is to brush",
+        "E) critic is to movie"
+      ],
+      "answerIndex": 1,
+      "bridge": "Worker:Product",
+      "explanation": "Worker:Product. A critic produces a review, just as a baker produces bread. The strongest trap, 'painter is to brush,' is Worker:Tool (a brush is used to make art, not the finished product), so it fails."
+    },
+    {
+      "stem": "curtail is to extend as",
+      "choices": [
+        "A) shorten is to trim",
+        "B) grow is to shrink",
+        "C) shrink is to grow",
+        "D) reduce is to lower",
+        "E) cut is to slice"
+      ],
+      "answerIndex": 2,
+      "bridge": "Antonym",
+      "explanation": "Antonym. To curtail is to make smaller and to extend is to make larger, matching 'shrink is to grow' (smaller then larger, same direction). The trap 'grow is to shrink' is the right pair of opposites but reversed (larger then smaller), so it fails."
+    },
+    {
+      "stem": "deprecate is to criticize as",
+      "choices": [
+        "A) praise is to criticize",
+        "B) insult is to offend",
+        "C) criticize is to praise",
+        "D) cheer is to boo",
+        "E) applaud is to boo"
+      ],
+      "answerIndex": 1,
+      "bridge": "Synonym",
+      "explanation": "Synonym. To deprecate means to criticize or belittle, so the two words mean nearly the same thing, like 'insult is to offend.' The trap 'praise is to criticize' pairs opposites, not synonyms, so it fails."
+    },
+    {
+      "stem": "dilapidated is to worn as",
+      "choices": [
+        "A) cold is to freezing",
+        "B) freezing is to cold",
+        "C) wet is to soaked",
+        "D) new is to old",
+        "E) big is to huge"
+      ],
+      "answerIndex": 1,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree/Intensity. Dilapidated is an extreme form of worn, just as freezing is an extreme form of cold (intense then mild). The trap 'cold is to freezing' runs mild then intense, the reverse direction, so it fails."
+    },
+    {
+      "stem": "dissatisfaction is to complaint as",
+      "choices": [
+        "A) joy is to sadness",
+        "B) smile is to joy",
+        "C) sadness is to tears",
+        "D) anger is to rage",
+        "E) tears is to sadness"
+      ],
+      "answerIndex": 2,
+      "bridge": "Cause:Effect",
+      "explanation": "Cause:Effect. Feeling dissatisfaction leads a person to make a complaint, just as sadness leads to tears. The trap 'tears is to sadness' reverses it (the effect then its cause), so it fails."
+    },
+    {
+      "stem": "drudgery is to work as",
+      "choices": [
+        "A) dog is to poodle",
+        "B) poodle is to dog",
+        "C) sport is to soccer",
+        "D) work is to boredom",
+        "E) chore is to fun"
+      ],
+      "answerIndex": 1,
+      "bridge": "Member:Category",
+      "explanation": "Member:Category. Drudgery is a specific kind of work, just as a poodle is a specific kind of dog (member then category). The trap 'sport is to soccer' goes category then member, the reverse direction, so it fails."
+    },
+    {
+      "stem": "eccentric is to ordinary as",
+      "choices": [
+        "A) normal is to strange",
+        "B) strange is to normal",
+        "C) odd is to weird",
+        "D) unusual is to rare",
+        "E) plain is to boring"
+      ],
+      "answerIndex": 1,
+      "bridge": "Antonym",
+      "explanation": "Antonym. Eccentric means strange and ordinary means normal, opposites in that order, matching 'strange is to normal.' The trap 'normal is to strange' is the same pair reversed, so its direction is wrong and it fails."
+    },
+    {
+      "stem": "embellish is to story as",
+      "choices": [
+        "A) book is to read",
+        "B) read is to book",
+        "C) writer is to pen",
+        "D) library is to book",
+        "E) reader is to library"
+      ],
+      "answerIndex": 1,
+      "bridge": "Action:Object",
+      "explanation": "Action:Object. To embellish is an action you perform on a story, just as to read is an action you perform on a book (action then the thing acted on). The trap 'book is to read' reverses this into object then action, so it fails."
+    },
+    {
+      "stem": "enlighten is to understanding as",
+      "choices": [
+        "A) strength is to exercise",
+        "B) exercise is to strength",
+        "C) exercise is to gym",
+        "D) understanding is to confusion",
+        "E) rest is to tiredness"
+      ],
+      "answerIndex": 1,
+      "bridge": "Cause:Effect",
+      "explanation": "Cause:Effect. To enlighten someone produces understanding, just as exercise produces strength (cause then result). The trap 'strength is to exercise' names the result before the cause, reversing the direction, so it fails."
+    },
+    {
+      "stem": "err is to blunder as",
+      "choices": [
+        "A) leap is to crawl",
+        "B) leap is to jump",
+        "C) jump is to sit",
+        "D) run is to walk",
+        "E) fall is to climb"
+      ],
+      "answerIndex": 1,
+      "bridge": "Synonym",
+      "explanation": "Synonym. To err is to make a mistake, which is the same as to blunder, just as 'leap is to jump' are two words for the same motion. The trap 'run is to walk' names two related actions with different speeds, not synonyms, so it fails."
+    },
+    {
+      "stem": "exaggerated is to accurate as",
+      "choices": [
+        "A) real is to fake",
+        "B) fake is to real",
+        "C) true is to honest",
+        "D) huge is to giant",
+        "E) false is to wrong"
+      ],
+      "answerIndex": 1,
+      "bridge": "Antonym",
+      "explanation": "Antonym. An exaggerated claim is overstated and untrue while an accurate one is true, opposites in that order, matching 'fake is to real.' The trap 'real is to fake' is the same pair reversed, so it fails."
+    },
+    {
+      "stem": "exude is to release as",
+      "choices": [
+        "A) open is to close",
+        "B) shut is to close",
+        "C) close is to open",
+        "D) push is to pull",
+        "E) fill is to bottle"
+      ],
+      "answerIndex": 1,
+      "bridge": "Synonym",
+      "explanation": "Synonym. To exude is to give off or release something, so the two words mean nearly the same, like 'shut is to close.' The trap 'open is to close' pairs opposites, not synonyms, so it fails."
+    },
+    {
+      "stem": "feign is to pretend as",
+      "choices": [
+        "A) big is to small",
+        "B) big is to huge",
+        "C) big is to large",
+        "D) tall is to short",
+        "E) big is to size"
+      ],
+      "answerIndex": 2,
+      "bridge": "Synonym",
+      "explanation": "Synonym: to feign is to pretend (same meaning), just as 'big' means 'large.' The strongest trap, 'big is to huge,' is a degree/intensity jump (huge = extremely big), not a same-meaning pair, so it fails."
+    },
+    {
+      "stem": "fortify is to weaken as",
+      "choices": [
+        "A) destroy is to build",
+        "B) build is to create",
+        "C) attack is to defend",
+        "D) build is to destroy",
+        "E) repair is to fix"
+      ],
+      "answerIndex": 3,
+      "bridge": "Antonym",
+      "explanation": "Antonym in the direction strengthen-to-weaken: to fortify is to make stronger, to weaken is the opposite, just as 'build' (make/strengthen) is the opposite of 'destroy.' The strongest trap, 'destroy is to build,' has the right bridge but reversed direction, so it fails."
+    },
+    {
+      "stem": "garrulous is to chatterbox as",
+      "choices": [
+        "A) brave is to hero",
+        "B) brave is to coward",
+        "C) hero is to brave",
+        "D) brave is to battle",
+        "E) strong is to hero"
+      ],
+      "answerIndex": 0,
+      "bridge": "Trait:Person",
+      "explanation": "Trait-to-person: 'garrulous' (very talkative) is the defining trait of a chatterbox, just as 'brave' is the defining trait of a hero. The strongest trap, 'brave is to coward,' names a person who LACKS the trait, so it fails."
+    },
+    {
+      "stem": "grimace is to pain as",
+      "choices": [
+        "A) happiness is to smile",
+        "B) frown is to happiness",
+        "C) smile is to happiness",
+        "D) smile is to sadness",
+        "E) laugh is to joke"
+      ],
+      "answerIndex": 2,
+      "bridge": "Cause:Effect",
+      "explanation": "Expression-to-emotion (the feeling produces the face): a grimace is the face pain makes, just as a smile is the face happiness makes. The strongest trap, 'happiness is to smile,' reverses the direction (emotion-to-expression), so it fails."
+    },
+    {
+      "stem": "hoodwink is to trick as",
+      "choices": [
+        "A) buy is to sell",
+        "B) sell is to buy",
+        "C) buy is to pay",
+        "D) buy is to purchase",
+        "E) buy is to store"
+      ],
+      "answerIndex": 3,
+      "bridge": "Synonym",
+      "explanation": "Synonym: to hoodwink is to trick (same meaning), just as 'buy' means 'purchase.' The strongest trap, 'buy is to pay,' is related but different — paying is one part of buying, not a synonym for it — so it fails."
+    },
+    {
+      "stem": "imminent is to distant as",
+      "choices": [
+        "A) close is to near",
+        "B) far is to close",
+        "C) close is to far",
+        "D) close is to open",
+        "E) close is to door"
+      ],
+      "answerIndex": 2,
+      "bridge": "Antonym",
+      "explanation": "Antonym of nearness in time: 'imminent' means very near (soon), 'distant' means far off, just as 'close' (near) is the opposite of 'far.' The strongest trap, 'far is to close,' is the same antonym reversed, so its direction is wrong and it fails."
+    },
+    {
+      "stem": "impeachable is to misconduct as",
+      "choices": [
+        "A) guilty is to innocent",
+        "B) crime is to guilty",
+        "C) guilty is to jury",
+        "D) guilty is to crime",
+        "E) guilty is to judge"
+      ],
+      "answerIndex": 3,
+      "bridge": "Cause:Effect",
+      "explanation": "Status-to-offense: 'impeachable' is the status someone earns because of misconduct, just as 'guilty' is the status someone earns because of a crime. The strongest trap, 'crime is to guilty,' reverses the direction (offense first), so it fails."
+    },
+    {
+      "stem": "inconsolable is to sad as",
+      "choices": [
+        "A) exhausted is to tired",
+        "B) tired is to exhausted",
+        "C) exhausted is to awake",
+        "D) sleepy is to tired",
+        "E) exhausted is to sleep"
+      ],
+      "answerIndex": 0,
+      "bridge": "Degree/Intensity",
+      "explanation": "Degree, strong-to-mild: 'inconsolable' is the extreme form of 'sad,' just as 'exhausted' is the extreme form of 'tired.' The strongest trap, 'tired is to exhausted,' runs mild-to-strong, so its direction is wrong and it fails."
+    },
+    {
+      "stem": "innocuous is to harmless as",
+      "choices": [
+        "A) quick is to slow",
+        "B) quick is to fast",
+        "C) quick is to sudden",
+        "D) quick is to race",
+        "E) slow is to fast"
+      ],
+      "answerIndex": 1,
+      "bridge": "Synonym",
+      "explanation": "Synonym: 'innocuous' means harmless (same meaning), just as 'quick' means 'fast.' The strongest trap, 'quick is to sudden,' feels similar but 'sudden' means unexpected, not fast, so it is a related-but-different pair and fails."
+    },
+    {
+      "stem": "intense is to mild as",
+      "choices": [
+        "A) loud is to noisy",
+        "B) quiet is to loud",
+        "C) loud is to quiet",
+        "D) loud is to music",
+        "E) quiet is to peaceful"
+      ],
+      "answerIndex": 2,
+      "bridge": "Antonym",
+      "explanation": "Antonym, strong-to-weak: 'intense' is extreme in strength while 'mild' is gentle, just as 'loud' is the opposite of 'quiet.' The strongest trap, 'quiet is to loud,' is the same antonym reversed, so its direction is wrong and it fails."
+    },
+    {
+      "stem": "itinerary is to trip as",
+      "choices": [
+        "A) recipe is to chef",
+        "B) meal is to recipe",
+        "C) recipe is to meal",
+        "D) recipe is to kitchen",
+        "E) recipe is to food"
+      ],
+      "answerIndex": 2,
+      "bridge": "Object:Function",
+      "explanation": "A guiding plan and the thing it guides: an itinerary lays out a trip, just as a recipe lays out a meal. The strongest trap, 'recipe is to food,' is close but 'food' is the raw stuff, not the planned outcome the way 'meal' is, so it fails; 'meal is to recipe' also reverses the direction."
+    },
+    {
+      "stem": "knead is to dough as",
+      "choices": [
+        "A) sweep is to broom",
+        "B) floor is to sweep",
+        "C) sweep is to clean",
+        "D) sweep is to floor",
+        "E) mop is to floor"
+      ],
+      "answerIndex": 3,
+      "bridge": "Action:Object",
+      "explanation": "Action and the thing it is done to: you knead dough, just as you sweep a floor. The strongest trap, 'sweep is to broom,' pairs the action with its tool rather than the object acted upon, so it fails."
+    }
+  ]
+}

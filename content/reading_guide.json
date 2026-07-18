@@ -1,0 +1,236 @@
+{
+  "sections": [
+    {
+      "title": "How the Section Works",
+      "icon": "book",
+      "blocks": [
+        {
+          "heading": "The Format",
+          "body": "40 questions in 40 minutes, spread across roughly 7-8 passages of about 250-350 words each. Every question has five answer choices, A through E. The passage mix is deliberately broad: literary fiction (including 19th-century prose with long sentences and formal diction), poetry, humanities essays, science writing, and personal essays or memoir. You will not like every passage. That's by design — the test rewards students who can extract structure from unfamiliar material, not students who happen to know the topic.",
+          "bullets": [
+            "7-8 passages, ~4-6 questions each",
+            "5 answer choices (A-E), one credited answer per question",
+            "Genres: fiction (often pre-1900), poetry, humanities, science, personal essay",
+            "No passage requires outside knowledge — everything is answerable from the text"
+          ]
+        },
+        {
+          "heading": "The Timing Math",
+          "body": "40 minutes divided by 8 passages is 5 minutes per passage — that's your working budget. Split it roughly 2 minutes reading, 3 minutes answering (about 35-40 seconds per question). If a passage has 6 questions, you can stretch to 5:30; if it has 4, aim for 4:00. The mistake weak test-takers make is spending 4 minutes reading and then rushing the questions, which is backwards: the points live in the questions, and a fast structural read plus lookbacks beats a slow careful read every time.",
+          "bullets": [
+            "Budget: ~5 min per passage (2 read + 3 answer)",
+            "~35-40 seconds per question on average",
+            "Poetry passages usually run shorter with fewer questions — bank time there if poetry is a strength"
+          ]
+        },
+        {
+          "heading": "Scoring: When to Guess, When to Skip",
+          "body": "Scoring is +1 for a right answer, -1/4 for a wrong one, 0 for a blank. Here's the expected-value logic in plain terms: a pure blind guess among 5 choices wins 1 time in 5 (+1) and loses 4 times in 5 (-1/4 each). That's +0.20 - 0.20 = exactly zero — blind guessing neither helps nor hurts on average. But eliminate even ONE choice and the math flips positive: guessing among 4 averages about +0.06 per question, among 3 about +0.17, among 2 about +0.38. So the rule is simple: if you can kill at least one answer, guess. Only leave a question blank when you genuinely cannot rule out anything — which, for a strong reader, should almost never happen.\n\nThe practical consequence: 'skip' on this test doesn't mean 'leave blank forever.' It means 'don't burn 90 seconds now' — eliminate what you can, pick from what's left, mark it in your booklet, and move on. Come back only if time allows.",
+          "bullets": [
+            "Blind guess (5 choices): EV = 0 — neutral",
+            "Eliminate 1 → guess: EV ≈ +0.06 per question",
+            "Eliminate 2 → guess: EV ≈ +0.17",
+            "Eliminate 3 → guess: EV ≈ +0.38",
+            "Rule: any elimination = guess; total mystery = blank"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "How to Read a Passage",
+      "icon": "text.quote",
+      "blocks": [
+        {
+          "heading": "Read for Architecture, Not Inventory",
+          "body": "You cannot memorize a passage in 2 minutes, and you don't need to — the passage stays on the page. What you need after one read is a map: what each paragraph DOES and where things live, so lookback questions take 10 seconds instead of a full re-read. As you read, assign each paragraph a job in 3-5 words: 'introduces the mystery,' 'gives the counterexample,' 'author's own opinion,' 'shifts to the present day.' Jot a 2-3 word margin note per paragraph if writing helps you; the act of labeling forces you to process function.\n\nThe two things worth actively tracking on every passage: the author's PURPOSE (why did they write this — to argue, to describe, to mock, to reminisce?) and the author's TONE (admiring, skeptical, wistful, ironic?). Half the questions hang on these two, and details you can always look up.",
+          "bullets": [
+            "Give every paragraph a 3-5 word job title as you read",
+            "Track purpose and tone continuously — they're question magnets",
+            "Circle pivot words: but, however, yet, although, nevertheless — arguments turn there",
+            "Don't memorize details; memorize WHERE details are"
+          ]
+        },
+        {
+          "heading": "Handling Old-Fashioned Prose",
+          "body": "Nineteenth-century passages intimidate students with long sentences, inverted word order, and vocabulary like 'countenance' and 'notwithstanding.' The fix is mechanical: find the subject and main verb of each long sentence and let the ornamentation fall away. 'Never, in all her years at Thornfield, had Eleanor, despite her many trials, felt such despair' is just 'Eleanor felt despair' with decoration. Read these passages a half-step slower and paraphrase each sentence into modern casual English in your head — 'okay, so the uncle is secretly annoyed at the nephew.'\n\nAlso know that older fiction runs on social subtext: characters rarely say what they mean, and the narrator often comments ironically on them. When a Victorian narrator calls someone 'a most agreeable gentleman,' check whether the surrounding details support or undercut that — irony detection is a favorite question source.",
+          "bullets": [
+            "Strip long sentences to subject + verb; the rest is decoration",
+            "Translate each sentence into blunt modern English mentally",
+            "Watch for narrator irony — praise that the details contradict",
+            "Unfamiliar words: infer from role in sentence, don't stall"
+          ]
+        },
+        {
+          "heading": "Reading Poetry",
+          "body": "Poetry is where prepared students separate from everyone else, because most kids read a poem once, feel confused, and panic. Instead: paraphrase it line by line (or sentence by sentence — follow punctuation, not line breaks; a sentence in a poem can span four lines). Build a running literal translation: 'the speaker is walking at night... he sees a lit window... it reminds him of his childhood home.' Only after you have the literal story do you layer on feeling and figurative meaning.\n\nThree things to identify in every poem: (1) the SPEAKER — who is talking, and to whom? The speaker is not the poet. (2) the SITUATION — what is literally happening? (3) the SHIFT — almost every tested poem turns somewhere (a 'but,' a stanza break, a move from description to reflection, past to present). Questions cluster around the shift, so mark it.",
+          "bullets": [
+            "Follow sentences and punctuation, not line breaks",
+            "Paraphrase literally first; interpret second",
+            "Identify speaker, situation, and the shift — mark the turn",
+            "Titles are free information — read them twice"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The 8 Question Types",
+      "icon": "questionmark.circle",
+      "blocks": [
+        {
+          "heading": "1. Main Idea",
+          "body": "Recognize it: 'The main idea of the passage is...', 'This passage is primarily about...', 'Which title best fits...'. Strategy: before touching the choices, answer in your own words in under ten seconds — usually the job of the first and last paragraphs stitched together. Then find the choice that covers the WHOLE passage at the right altitude. The trap: choices that are true but too narrow (they describe one paragraph, often a vivid one) or too broad ('the history of science' for a passage about one experiment). If a choice would also be true of a paragraph you could delete, it's too narrow."
+        },
+        {
+          "heading": "2. Detail / Supporting Idea",
+          "body": "Recognize it: 'According to the passage...', 'The author states that...', often with a line reference. Strategy: this is the one type where you MUST go back — never answer from memory. Find the referenced lines, read a sentence above and below for context, and match. The credited answer is usually a paraphrase of the text, not a word-for-word copy. The trap: choices that recycle exact words from the passage but twist the relationship ('X caused Y' when the passage says Y caused X), or lift words from the wrong paragraph. Familiar vocabulary in a choice is bait, not evidence."
+        },
+        {
+          "heading": "3. Inference",
+          "body": "Recognize it: 'It can be inferred...', 'The passage suggests...', 'The author would most likely agree...'. Strategy: SSAT inferences are tiny steps, not leaps — the right answer is something the text makes unavoidable, one small logical step from what's stated. Ask: 'could the author read this choice and say obviously, that's what I meant?' The trap: choices that are reasonable in the real world but unsupported by THIS text, and choices that go one step too far ('the author dislikes the theory' inflated to 'the author believes the theory should be abandoned entirely'). The more interesting-sounding inference is usually the wrong one."
+        },
+        {
+          "heading": "4. Vocabulary in Context",
+          "body": "Recognize it: 'As used in line 12, \"temper\" most nearly means...'. Strategy: cover the choices, re-read the sentence, and substitute your own word based purely on context. THEN match to the choices. Plug your pick back into the sentence and read it aloud in your head — it must sound natural. The trap is fixed and predictable: the most common dictionary definition of the word, sitting right there as choice A or B. The test picks words precisely because they're used in a secondary sense ('temper' meaning 'to moderate,' not 'anger'). If a choice is the first definition you'd think of, be suspicious of it."
+        },
+        {
+          "heading": "5. Tone / Attitude",
+          "body": "Recognize it: 'The author's tone is best described as...', 'The author's attitude toward X is...'. Strategy: harvest the emotionally loaded words — verbs and adjectives carry tone ('squandered' vs 'spent,' 'clever' vs 'cunning'). Decide two things: direction (positive / negative / neutral) and intensity (mild / strong). That alone kills most choices. The trap: extreme options ('contemptuous,' 'reverent') for a mildly opinionated passage — SSAT authors are usually measured, so 'appreciative,' 'skeptical,' and 'nostalgic' beat 'worshipful,' 'scornful,' and 'despairing.' Also learn the tone vocabulary itself: wistful, wry, ambivalent, detached, earnest, irreverent — a tone question you miss because of a word is a vocabulary problem, and fixable."
+        },
+        {
+          "heading": "6. Purpose / Function",
+          "body": "Recognize it: 'The author mentions X in order to...', 'The second paragraph serves to...'. Strategy: zoom out — the question isn't what the detail SAYS but what job it DOES for the surrounding argument. Read the sentence before the cited element and ask 'what claim was on the table, and how does this detail serve it?' Answers start with verbs (illustrate, qualify, refute, concede), so match the verb first: is this detail an example (illustrate), an objection (challenge), a softening (qualify)? The trap: choices that accurately summarize the detail's content but name the wrong function — a correct description attached to the wrong 'in order to.'"
+        },
+        {
+          "heading": "7. EXCEPT / NOT / LEAST",
+          "body": "Recognize it: 'All of the following are mentioned EXCEPT...', 'Which is NOT a reason the author gives...'. Strategy: these are slow by nature — you're verifying four things and rejecting one — so treat them as a checklist. Physically mark each choice Y or N as you confirm it in the text; the lone N (or lone Y, for LEAST questions) is your answer. The trap is your own brain: mid-question, you forget the reversal and pick the first choice the passage supports — the exact opposite of what's asked. Circle the word EXCEPT in the question before you start. If you're behind on time, this is the best question type to guess on and revisit, because it costs the most seconds per point."
+        },
+        {
+          "heading": "8. Application / Extension",
+          "body": "Recognize it: 'Which situation is most similar to...', 'The author would most likely respond to X by...', 'Which best exemplifies the principle in line 20?'. Strategy: compress the passage's idea into an abstract one-liner first ('specialists miss what generalists see'), then test each new scenario against that template — ignore surface subject matter completely. A passage about beekeeping can be correctly matched by a choice about orchestras if the underlying logic matches. The trap: choices that share the passage's TOPIC but not its logic. Topic overlap is the bait; structural match is the answer."
+        }
+      ]
+    },
+    {
+      "title": "Elimination Playbook",
+      "icon": "target",
+      "blocks": [
+        {
+          "heading": "Wrong Answers Are Manufactured, Not Random",
+          "body": "Every wrong answer on the SSAT was engineered to catch a specific sloppy habit. Once you can name the five patterns, elimination stops being a vibe and becomes a checklist. On hard questions, you often can't prove the right answer directly — but you can always convict the four wrong ones. Work by demolition: finding four flaws is easier and more reliable than falling in love with one choice.",
+          "bullets": [
+            "TOO EXTREME: 'always,' 'never,' 'all,' 'completely,' 'proves.' Measured passages don't support absolute claims. Extreme language is wrong ~90% of the time.",
+            "HALF-RIGHT: the first clause is perfect, the last three words break it. Read every choice to its final word — the poison is at the end.",
+            "OUT OF SCOPE: introduces something the passage never discusses (comparisons to things unmentioned, motives never stated, time periods not covered). Plausible ≠ present.",
+            "OPPOSITE: reverses the author's actual position, often by dropping or adding a negation. Deadly when you're rushing or the prose is ironic.",
+            "TRUE-BUT-DOESN'T-ANSWER: accurately restates something from the passage — just not the thing this question asked. 'Is it in the passage?' is the wrong test; 'does it answer THIS question?' is the right one."
+          ]
+        },
+        {
+          "heading": "The Evidence Test",
+          "body": "Before committing to any answer, run the evidence test: 'If I had to defend this choice, can I point to the specific line(s) that prove it?' Not lines that are consistent with it — lines that PROVE it. If your defense is 'well, it makes sense' or 'it feels like something the author would think,' that's not evidence, and you've probably been baited. The credited answer always has a textual receipt. This one habit — demanding a line citation from yourself — eliminates more wrong answers than any other single technique, because trap answers are built precisely to survive a plausibility check while failing an evidence check.",
+          "bullets": [
+            "Ask: 'which line proves this?' — if you can't point, don't pick",
+            "Down to two choices: find the exact words where they differ, and check THAT difference against the text",
+            "Consistent-with-the-passage is not the same as supported-by-the-passage"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pacing Plan",
+      "icon": "clock",
+      "blocks": [
+        {
+          "heading": "Choose Your Passage Order",
+          "body": "Nothing forces you to read the passages in printed order, and you shouldn't. In your practice tests, figure out your genre ranking — most strong readers have a clear pattern (e.g., science and personal essay fast and accurate; poetry or 19th-century fiction slow). On test day, take a 20-second scan of the section, then do your strongest genres FIRST. This banks points and time early, protects your best material from end-of-section fatigue, and means that if anything gets squeezed, it's the passage where your accuracy was lowest anyway. Just be surgical with the answer sheet: every time you jump, confirm the question number you're bubbling. One misaligned bubble can cascade.",
+          "bullets": [
+            "Know your genre ranking from practice data, not from feelings",
+            "Strong genres first, weakest passage last",
+            "Check bubble alignment every time you skip around"
+          ]
+        },
+        {
+          "heading": "Checkpoints and Skip Discipline",
+          "body": "Set two hard checkpoints: at 20 minutes you should have 4 passages fully done; at 32 minutes, 6-7 done. If you're behind at a checkpoint, don't read faster — cut differently: on the next passage, do the line-reference and vocab-in-context questions (cheap, targeted) and guess-and-flag the main-idea and EXCEPT questions (expensive).\n\nSkip discipline within a passage: the moment a question crosses ~60 seconds, eliminate what you can, pick the best survivor, mark a flag in the booklet, and move. The math is brutal and simple — 90 extra seconds agonizing over one question is two other questions you never saw. No single question is worth two questions.",
+          "bullets": [
+            "Checkpoint 1: four passages done by 20:00",
+            "Checkpoint 2: six-seven passages done by 32:00",
+            "60-second rule: eliminate, best guess, flag, move",
+            "Never leave a passage without answering everything you've eliminated on — blanks are only for zero-elimination questions"
+          ]
+        },
+        {
+          "heading": "The Last 5 Minutes",
+          "body": "At the 35-minute mark, switch modes. If a whole passage remains, do NOT read it start to finish — go straight to its line-reference and vocabulary questions, reading only the cited lines plus one sentence of context; you can earn 2-3 points from a passage you never fully read. Then sweep your flagged questions: with fresh eyes, many two-choice standoffs resolve in seconds. In the final 60 seconds, make a decision on every flagged question where you'd eliminated at least one choice — remember, that guess is positive expected value. Leave blank only the untouched ones.",
+          "bullets": [
+            "35:00 — triage mode: line-reference and vocab questions only on unread passages",
+            "Sweep flags before the untouched",
+            "Final minute: commit on every partially-eliminated question; blanks only where you know nothing"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Traps & Bad Habits",
+      "icon": "exclamationmark.triangle",
+      "blocks": [
+        {
+          "heading": "Answering From Memory",
+          "body": "The single biggest point-leak for strong readers. You read well, you remember 'the gist,' so you answer detail and inference questions from your mental summary instead of the page — and the test is built to punish exactly that, with choices that match what a good reader WOULD remember, slightly wrong. Your memory of a passage is a lossy compression; wrong answers are engineered to match the compression, right answers match the source. Rule: any question about a specific claim, detail, or line gets a 10-second lookback. The 10 seconds is cheaper than the -1.25 swing of a wrong answer."
+        },
+        {
+          "heading": "Outside Knowledge",
+          "body": "You'll hit science passages about topics you know from school, and choices that are scientifically TRUE but absent from the passage. They are wrong. The question is never 'what is true about photosynthesis' — it's 'what does THIS author say.' Knowing the topic is actually a risk factor: it makes unsupported choices feel supported. When a passage covers familiar ground, consciously downshift into 'I know nothing except these 300 words' mode."
+        },
+        {
+          "heading": "Extreme Language and Comfortable-Sounding Answers",
+          "body": "Two mirror-image traps. First: choices with 'always/never/only/proves/completely' — SSAT passages are measured and hedged, so absolutes almost never survive the evidence test. Second, subtler: choices that sound wise, kind, or morally uplifting ('the author believes perseverance conquers all obstacles'). Students pick them because they sound like the lesson a passage SHOULD have. The test knows this. Warm sentiment is not evidence; check the lines."
+        },
+        {
+          "heading": "First-Choice Anchoring",
+          "body": "You read choice A, it sounds decent, and every later choice gets judged against A instead of against the passage — so a 'pretty good' A beats a 'correct' D you never gave a fair read. Fix: read all five choices before evaluating ANY of them, especially on main-idea and tone questions where several choices are deliberately 'close.' The credited answer is the BEST of five, not the first adequate one. Corollary: when you're torn between two, don't re-ask 'which sounds better' — find the specific words where they differ and check that difference against the text."
+        },
+        {
+          "heading": "Re-Reading Spirals",
+          "body": "You hit a dense sentence, don't get it, and read it again... and again, eyes moving but comprehension flat. Three passes at the same sentence with rising panic yields less than one pass with a different strategy. If a sentence won't parse after two reads: strip it to subject + verb, or skip it entirely — most sentences are not load-bearing, and the questions will tell you which ones matter. The same spiral happens at question level (re-reading all five choices in a loop): that's your cue that you lack evidence, not effort. Go back to the passage once with a specific target, or eliminate-guess-flag and move."
+        }
+      ]
+    },
+    {
+      "title": "How to Practice",
+      "icon": "chart.bar",
+      "blocks": [
+        {
+          "heading": "The Drill Protocol",
+          "body": "Practice in three gears, not one. Gear 1 — untimed accuracy (first 2 weeks): single passages, no clock, forced evidence-citing: write down the line numbers that justify every answer before checking. This builds the habit that everything else depends on. Gear 2 — single-passage timing: one passage + questions in 5 minutes, several per session, focusing on your weak genres (usually poetry and older fiction — schedule those first, not last, in each session). Gear 3 — full 40/40 sections weekly, simulating real conditions: strict clock, bubbling, your passage-order strategy, and the guess/blank rules from section 1. Don't live in Gear 3; full sections diagnose, but Gears 1-2 are where skills actually change.",
+          "bullets": [
+            "Gear 1: untimed, must cite line numbers for every answer",
+            "Gear 2: 5-minute single passages, weak genres first",
+            "Gear 3: one full timed section per week, real conditions",
+            "2-3 sessions of 30-40 minutes beats one weekend marathon"
+          ]
+        },
+        {
+          "heading": "The Error Log",
+          "body": "Every missed question (and every 'lucky guess' — log those too, they're hidden misses) gets a row with four fields: question type (the 8 from this guide), passage genre, trap type (the 5 from the Elimination Playbook), and root cause. Root cause must be one of: (1) misread the passage, (2) misread the question, (3) knew where to look but didn't look back, (4) fell for a named trap, (5) vocabulary gap, (6) time pressure. After 3-4 sessions the log stops being a list of mistakes and becomes a map: 'inference questions + fiction + one-step-too-far' or 'EXCEPT questions when behind on time' will jump out. You then drill THAT cell, not 'reading' in general. A vague weakness is unfixable; a named one is a to-do item.",
+          "bullets": [
+            "Log misses AND lucky guesses",
+            "Four fields: question type, genre, trap type, root cause",
+            "Review the log weekly for clusters; drill the cluster, not the subject",
+            "Keep a separate running list of tone/attitude vocabulary you didn't know"
+          ]
+        },
+        {
+          "heading": "How to Review a Wrong Answer",
+          "body": "Reading the explanation and nodding is not review — it feels like learning and changes nothing. The protocol: (1) BEFORE looking at the answer, re-attempt the question untimed; a surprising number resolve themselves, which tells you the problem was pacing, not comprehension. (2) Once you know the credited answer, find the exact lines that prove it — don't accept the explanation's word, locate the evidence yourself. (3) Autopsy your original choice: which of the five trap patterns was it, and what did it correctly predict about your thinking? (4) Write one sentence: 'Next time I see [signal], I will [behavior]' — e.g., 'Next time a vocab-in-context choice is the common definition, I check the sentence twice before picking it.' That sentence goes in the log. If you can't write the sentence, you haven't finished reviewing the question.",
+          "bullets": [
+            "Re-attempt before reading any explanation",
+            "Find the proving lines yourself — no secondhand evidence",
+            "Name the trap your wrong answer used",
+            "End with one 'next time I see X, I do Y' sentence per miss"
+          ]
+        }
+      ]
+    }
+  ]
+}
