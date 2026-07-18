@@ -48,6 +48,34 @@ runs locally — no account, no network, all progress saved on your Mac.
 - **Progress** — new-words-today, cards due, day streak, a review forecast, and
   quiz history.
 
+## Install (downloaded release)
+
+The app is **ad-hoc signed** (no paid Apple Developer account), so the first time
+you open a downloaded copy, macOS Gatekeeper will warn that it's from an
+"unidentified developer" — or, if you double-click it, say it "is damaged and
+can't be opened." **It's not damaged or malware** — macOS just quarantines apps
+from unidentified developers. Open it one of these ways:
+
+**Easiest — right-click to open:**
+1. Unzip `SSAT Prep.zip`.
+2. **Right-click** (or Control-click) **`SSAT Prep.app` → Open**, then click **Open**
+   in the dialog. You only do this once; afterward it launches normally.
+
+**If macOS still blocks it (Sequoia / macOS 15+):**
+1. Try to open it once (it gets blocked).
+2. Go to  **System Settings → Privacy & Security**, scroll down to the
+   "SSAT Prep was blocked" message, and click **Open Anyway**.
+
+**Or clear the quarantine flag in Terminal** (fixes the "is damaged" error
+directly):
+```bash
+xattr -cr "/path/to/SSAT Prep.app"    # e.g. ~/Downloads/SSAT Prep.app
+open "/path/to/SSAT Prep.app"
+```
+
+Building it yourself (below) sidesteps all of this — locally built apps aren't
+quarantined.
+
 ## Build & run
 
 Requirements: **macOS 14+**, **Swift 5.9 / Xcode 15+**.
