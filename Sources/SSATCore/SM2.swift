@@ -34,7 +34,7 @@ public struct CardState: Codable, Equatable {
 
     public init() {
         phase = .new
-        ease = 2.5
+        ease = 2.2
         intervalDays = 0
         due = nil
         reps = 0
@@ -81,8 +81,21 @@ public enum SM2 {
     public static let relearningSteps: [TimeInterval] = [600]
     public static let graduatingIntervalDays: Double = 1
     public static let easyIntervalDays: Double = 4
-    public static let maxIntervalDays: Double = 365
+    /// Fixed early review intervals (days): a young card comes back at 1, then 3,
+    /// then 7 days before ease-based spacing takes over — so words repeat while
+    /// they're still fresh instead of jumping straight to weeks and being forgotten.
+    public static let earlyReviewStepsDays: [Double] = [1, 3, 7]
+    public static let maxIntervalDays: Double = 90
     public static let minEase: Double = 1.3
+
+    /// Next interval on a "Good" answer: step through the fixed early intervals
+    /// first, then multiply by ease once the card is past them.
+    static func nextReviewInterval(_ interval: Double, ease: Double) -> Double {
+        if let step = earlyReviewStepsDays.first(where: { $0 > interval + 0.01 }) {
+            return step
+        }
+        return max(1, interval * ease)
+    }
 
     public static func answer(_ state: CardState, grade: Grade, now: Date) -> CardState {
         var s = state
@@ -147,7 +160,7 @@ public enum SM2 {
             s.intervalDays = min(maxIntervalDays, max(1, s.intervalDays * 1.2))
             s.due = now.addingTimeInterval(s.intervalDays * 86400)
         case .good:
-            s.intervalDays = min(maxIntervalDays, max(1, s.intervalDays * s.ease))
+            s.intervalDays = min(maxIntervalDays, nextReviewInterval(s.intervalDays, ease: s.ease))
             s.due = now.addingTimeInterval(s.intervalDays * 86400)
         case .easy:
             s.ease += 0.15

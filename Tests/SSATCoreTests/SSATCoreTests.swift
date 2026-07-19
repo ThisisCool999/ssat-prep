@@ -39,6 +39,19 @@ final class SM2Tests: XCTestCase {
         XCTAssertEqual(next.due, now.addingTimeInterval(25 * 86400))
     }
 
+    func testYoungReviewWalksFixedEarlySteps() {
+        var s = CardState()
+        s.phase = .review
+        s.intervalDays = 1
+        s.ease = 2.2
+        let a = SM2.answer(s, grade: .good, now: now)   // 1 → 3
+        XCTAssertEqual(a.intervalDays, 3, accuracy: 0.01)
+        let b = SM2.answer(a, grade: .good, now: now)   // 3 → 7
+        XCTAssertEqual(b.intervalDays, 7, accuracy: 0.01)
+        let c = SM2.answer(b, grade: .good, now: now)   // 7 → 7 × ease
+        XCTAssertEqual(c.intervalDays, 15.4, accuracy: 0.05)
+    }
+
     func testReviewLapseDropsEaseAndEntersRelearning() {
         var s = CardState()
         s.phase = .review
