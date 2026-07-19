@@ -231,9 +231,6 @@ struct WordTestView: View {
                                 }
                             }
                         }
-                        if !word.yourNote.isEmpty {
-                            Text(word.yourNote).font(.callout).foregroundStyle(Theme.notebook)
-                        }
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .transition(.opacity)

@@ -186,11 +186,8 @@ struct BrowseView: View {
                         }
                     }
 
-                    if !word.yourNote.isEmpty {
-                        labeledBox("Your note", word.yourNote, tint: Theme.notebook)
-                    }
                     if !word.mnemonic.isEmpty {
-                        labeledBox("Memory hook", word.mnemonic, tint: Theme.learning)
+                        labeledBox("Mnemonic", word.mnemonic, tint: Theme.learning)
                     }
                     if !word.example.isEmpty {
                         Text(word.example).font(.callout.italic()).foregroundStyle(.secondary)
@@ -220,7 +217,7 @@ struct BrowseView: View {
 
     private func labeledBox(_ title: String, _ text: String, tint: Color) -> some View {
         VStack(alignment: .leading, spacing: 3) {
-            Text(title).font(.caption.weight(.semibold)).foregroundStyle(tint)
+            Text(title).font(.caption.weight(.semibold)).foregroundStyle(tint).textCase(.uppercase)
             Text(text).font(.callout)
         }
         .padding(10)

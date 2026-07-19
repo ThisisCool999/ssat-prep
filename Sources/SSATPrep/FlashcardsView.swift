@@ -198,13 +198,8 @@ struct FlashcardsView: View {
                 }
             }
 
-            if !word.yourNote.isEmpty {
-                noteBox(icon: "pencil.and.scribble", tint: Theme.notebook,
-                        title: "Your note", text: word.yourNote)
-            }
-            if !word.mnemonic.isEmpty && word.mnemonic.lowercased() != word.yourNote.lowercased() {
-                noteBox(icon: "brain", tint: Theme.learning,
-                        title: "Memory hook", text: word.mnemonic)
+            if !word.mnemonic.isEmpty {
+                noteBox(tint: Theme.learning, title: "Mnemonic", text: word.mnemonic)
             }
             if !word.example.isEmpty {
                 Text(word.example)
@@ -220,13 +215,10 @@ struct FlashcardsView: View {
         .frame(maxWidth: .infinity, alignment: .leading)
     }
 
-    private func noteBox(icon: String, tint: Color, title: String, text: String) -> some View {
-        HStack(alignment: .top, spacing: 8) {
-            Image(systemName: icon).foregroundStyle(tint)
-            VStack(alignment: .leading, spacing: 2) {
-                Text(title).font(.caption.weight(.semibold)).foregroundStyle(tint)
-                Text(text).font(.callout)
-            }
+    private func noteBox(tint: Color, title: String, text: String) -> some View {
+        VStack(alignment: .leading, spacing: 2) {
+            Text(title).font(.caption.weight(.semibold)).foregroundStyle(tint).textCase(.uppercase)
+            Text(text).font(.callout)
         }
         .padding(10)
         .frame(maxWidth: .infinity, alignment: .leading)
