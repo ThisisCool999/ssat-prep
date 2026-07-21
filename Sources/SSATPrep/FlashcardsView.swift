@@ -8,7 +8,7 @@ struct FlashcardsView: View {
     @State private var scope: AppState.DeckScope = .all
     @State private var session: StudySession?
     @State private var flipped = false
-    @State private var finishedSummary: (done: Int, again: Int)?
+    @State private var finishedSummary: (done: Int, again: Int, pending: Int)?
 
     private let dueRefresh = Timer.publish(every: 30, on: .main, in: .common).autoconnect()
 
@@ -138,7 +138,7 @@ struct FlashcardsView: View {
                 }
                 .controlSize(.small)
                 Button("End session") {
-                    finishedSummary = (session.completed, session.againCount)
+                    finishedSummary = (session.completed, session.againCount, session.pendingLaterCount)
                     self.session = nil
                     flipped = false
                     state.bump()
@@ -279,14 +279,14 @@ struct FlashcardsView: View {
         flipped = false
         state.bump()
         if session.isFinished {
-            finishedSummary = (session.completed, session.againCount)
+            finishedSummary = (session.completed, session.againCount, session.pendingLaterCount)
             self.session = nil
         }
     }
 
     // MARK: End
 
-    private func endScreen(_ summary: (done: Int, again: Int)) -> some View {
+    private func endScreen(_ summary: (done: Int, again: Int, pending: Int)) -> some View {
         VStack(spacing: 16) {
             Image(systemName: "checkmark.circle")
                 .font(.system(size: 44))
@@ -295,6 +295,12 @@ struct FlashcardsView: View {
                 .font(.largeTitle.weight(.semibold))
             Text("\(summary.done) answers · \(summary.again) lapses")
                 .foregroundStyle(.secondary)
+            if summary.pending > 0 {
+                Label("\(summary.pending) words are mid-step and come back within the hour — return soon to lock them in",
+                      systemImage: "clock.arrow.circlepath")
+                    .font(.callout)
+                    .foregroundStyle(Theme.learning)
+            }
             HStack {
                 Button("Study more") {
                     let s = state.makeSession(scope: scope)

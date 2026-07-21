@@ -38,7 +38,12 @@ public final class StudySession {
             case .new:
                 fresh.append(w)
             case .learning, .relearning:
-                if let due = c.due, c.isDue(now: now) { learning.append((w, due)) }
+                // Learn-ahead: also pick up step cards due soon, so a word left
+                // mid-step by the last session is never stranded and skipped.
+                if let due = c.due,
+                   c.isDue(now: now.addingTimeInterval(SM2.learnAheadSeconds)) {
+                    learning.append((w, due))
+                }
             case .review:
                 if let due = c.due, c.isDue(now: now) { review.append((w, due)) }
             }
@@ -76,12 +81,22 @@ public final class StudySession {
         return out
     }
 
-    public var current: VocabWord? { queue.first }
-    public var remaining: Int { queue.count }
-    public var isFinished: Bool { queue.isEmpty }
+    /// Learning-step cards graded this session, waiting for their step to elapse
+    /// before they are served again.
+    private var waiting: [(word: VocabWord, due: Date)] = []
 
-    /// Applies the grade, persists, and re-queues the card if it is still in a
-    /// short learning step (so "again" cards repeat before the session ends).
+    public var current: VocabWord? { queue.first }
+    public var remaining: Int { queue.count + waiting.count }
+    public var isFinished: Bool { queue.isEmpty }
+    /// Cards still in a learning step too far away to serve now — they return in
+    /// a later session (shown on the end screen so the user knows to come back).
+    public var pendingLaterCount: Int { waiting.count }
+
+    /// Applies the grade, persists, and parks the card until its learning step
+    /// elapses. Steps are honored in-session: a "10 min" card comes back after
+    /// 10 minutes, not whenever the queue happens to cycle — otherwise three
+    /// quick Goods minutes apart could graduate a word to day-scale review on
+    /// nothing but short-term memory.
     public func answer(_ grade: Grade, now: Date = Date()) {
         guard let word = queue.first else { return }
         queue.removeFirst()
@@ -98,8 +113,23 @@ public final class StudySession {
         completed += 1
         if grade == .again { againCount += 1 }
 
-        if after.phase == .learning || after.phase == .relearning {
-            queue.append(word)
+        if after.phase == .learning || after.phase == .relearning, let due = after.due {
+            waiting.append((word, due))
+        }
+        promote(now: now)
+    }
+
+    /// Move waiting cards whose step has elapsed back into the queue; when the
+    /// queue runs dry, serve cards due within the learn-ahead window early so
+    /// the session doesn't end with a card 3 minutes from ready.
+    private func promote(now: Date) {
+        waiting.sort { $0.due < $1.due }
+        while let first = waiting.first, first.due <= now {
+            queue.append(waiting.removeFirst().word)
+        }
+        while queue.isEmpty, let first = waiting.first,
+              first.due <= now.addingTimeInterval(SM2.learnAheadSeconds) {
+            queue.append(waiting.removeFirst().word)
         }
     }
 

@@ -8,11 +8,15 @@ final class SM2Tests: XCTestCase {
         var s = CardState()
         s = SM2.answer(s, grade: .good, now: now)
         XCTAssertEqual(s.phase, .learning)
-        XCTAssertEqual(s.due, now.addingTimeInterval(600))
+        XCTAssertEqual(s.due, now.addingTimeInterval(600), "second recall at 10 min")
 
         s = SM2.answer(s, grade: .good, now: now.addingTimeInterval(600))
+        XCTAssertEqual(s.phase, .learning)
+        XCTAssertEqual(s.due, now.addingTimeInterval(600 + 3600), "third recall at 1 hour")
+
+        s = SM2.answer(s, grade: .good, now: now.addingTimeInterval(600 + 3600))
         XCTAssertEqual(s.phase, .review)
-        XCTAssertEqual(s.intervalDays, 1)
+        XCTAssertEqual(s.intervalDays, 1, "day scale only after three spaced recalls")
     }
 
     func testEasyOnNewCardGraduatesImmediately() {
@@ -61,11 +65,14 @@ final class SM2Tests: XCTestCase {
         XCTAssertEqual(next.phase, .relearning)
         XCTAssertEqual(next.lapses, 1)
         XCTAssertEqual(next.ease, 2.3, accuracy: 0.0001)
-        XCTAssertEqual(next.intervalDays, 10)
 
-        let graduated = SM2.answer(next, grade: .good, now: now.addingTimeInterval(600))
+        let step2 = SM2.answer(next, grade: .good, now: now.addingTimeInterval(60))
+        XCTAssertEqual(step2.phase, .relearning, "relearning takes two recalls")
+
+        let graduated = SM2.answer(step2, grade: .good, now: now.addingTimeInterval(660))
         XCTAssertEqual(graduated.phase, .review)
-        XCTAssertEqual(graduated.intervalDays, 10)
+        XCTAssertEqual(graduated.intervalDays, 1,
+                       "a forgotten word restarts the day ladder — not half its old interval")
     }
 
     func testEaseNeverDropsBelowFloor() {
@@ -273,6 +280,34 @@ final class StudySessionTests: XCTestCase {
         XCTAssertTrue(store.priorityWords.contains("word1"), "still flagged")
     }
 
+    func testLearningStepsHonoredInSession() {
+        let store = freshStore()
+        let t0 = Date()
+        let session = StudySession(words: makeWords(2), store: store, newLimit: 2, now: t0)
+        let first = session.current!.word
+        session.answer(.good, now: t0)   // → 10-minute step, must NOT come right back
+        XCTAssertNotEqual(session.current?.word, first,
+                          "a mid-step card is parked, not re-served immediately")
+        XCTAssertEqual(session.remaining, 2, "parked card still counts as remaining")
+        session.answer(.good, now: t0.addingTimeInterval(5))
+        // Queue empty → the parked card is served early (within learn-ahead).
+        XCTAssertEqual(session.current?.word, first)
+    }
+
+    func testMidStepWordsNotStrandedAcrossSessions() {
+        let store = freshStore()
+        let t0 = Date()
+        let words = makeWords(1)
+        let s1 = StudySession(words: words, store: store, newLimit: 1, now: t0)
+        s1.answer(.good, now: t0)   // word parked in its 10-minute step; user quits
+
+        // 5 minutes later (step not yet elapsed) a new session must still pick
+        // the word up via learn-ahead instead of silently skipping it.
+        let s2 = StudySession(words: words, store: store, newLimit: 0,
+                              now: t0.addingTimeInterval(300))
+        XCTAssertEqual(s2.current?.word, "word0", "learn-ahead rescues mid-step words")
+    }
+
     func testPostponeCyclesQueue() {
         let store = freshStore()
         let session = StudySession(words: makeWords(3), store: store, newLimit: 3)
@@ -471,17 +506,20 @@ final class ProgressStoreTests: XCTestCase {
         }
         let now = Date()
         var overdue = CardState(); overdue.phase = .review; overdue.due = now.addingTimeInterval(-90000)
-        var dueLaterToday = CardState(); dueLaterToday.phase = .learning; dueLaterToday.due = now.addingTimeInterval(300)
+        // Within the learn-ahead window → servable now, counted.
+        var dueSoon = CardState(); dueSoon.phase = .learning; dueSoon.due = now.addingTimeInterval(300)
+        // Later today but beyond learn-ahead → not counted yet.
+        var dueLaterToday = CardState(); dueLaterToday.phase = .learning; dueLaterToday.due = now.addingTimeInterval(3 * 3600)
         var tomorrow = CardState(); tomorrow.phase = .review; tomorrow.due = now.addingTimeInterval(86400 * 1.2)
         store.setCard(overdue, for: "w0")
-        store.setCard(dueLaterToday, for: "w1")
-        store.setCard(tomorrow, for: "w2")
+        store.setCard(dueSoon, for: "w1")
+        store.setCard(dueLaterToday, for: "w2")
+        store.setCard(tomorrow, for: "w3")
 
         let forecast = store.forecast(words: words, now: now, days: 7)
-        // Today's forecast bar must equal the actionable-now due count (the
-        // learning card due later today is not counted yet).
+        // Today's forecast bar must equal the servable-now due count.
         XCTAssertEqual(forecast[0], store.dueCount(words: words, now: now))
-        XCTAssertEqual(forecast[0], 1, "only the overdue review card is due now")
+        XCTAssertEqual(forecast[0], 2, "overdue review + learn-ahead learning card")
     }
 
     func testPhaseCounts() {

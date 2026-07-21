@@ -272,8 +272,19 @@ public final class ProgressStore {
         return d.reviews > 0 || d.quizQuestions > 0
     }
 
+    /// Matches what a session will serve: due now, or a learning-step card due
+    /// within the learn-ahead window (so the start screen never claims "nothing
+    /// due" for a word a session would in fact pick up).
+    private func servableNow(_ c: CardState, now: Date) -> Bool {
+        if c.isDue(now: now) { return true }
+        if c.phase == .learning || c.phase == .relearning {
+            return c.isDue(now: now.addingTimeInterval(SM2.learnAheadSeconds))
+        }
+        return false
+    }
+
     public func dueCount(words: [VocabWord], now: Date) -> Int {
-        words.filter { card(for: $0.word).isDue(now: now) }.count
+        words.filter { servableNow(card(for: $0.word), now: now) }.count
     }
 
     /// Review-due counts for the next `days` days starting at `now` (index 0 = today).
@@ -289,7 +300,7 @@ public final class ProgressStore {
             let day = calendar.startOfDay(for: due)
             let offset = calendar.dateComponents([.day], from: startOfToday, to: day).day ?? 0
             if offset <= 0 {
-                if c.isDue(now: now) { counts[0] += 1 }
+                if servableNow(c, now: now) { counts[0] += 1 }
             } else if offset < days {
                 counts[offset] += 1
             }

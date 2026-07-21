@@ -77,8 +77,16 @@ public struct CardState: Codable, Equatable {
 }
 
 public enum SM2 {
-    public static let learningSteps: [TimeInterval] = [60, 600]
-    public static let relearningSteps: [TimeInterval] = [600]
+    /// A new word must survive three spaced recalls (10 min, 1 hour) before it
+    /// graduates to day-scale review — two taps minutes apart only prove
+    /// short-term memory, which is why graduated words used to be forgotten by
+    /// the next day.
+    public static let learningSteps: [TimeInterval] = [60, 600, 3600]
+    public static let relearningSteps: [TimeInterval] = [60, 600]
+    /// Learning-step cards due within this window are picked up by a new session
+    /// (and served early when the queue runs dry) so a part-learned word is never
+    /// stranded between short study bursts.
+    public static let learnAheadSeconds: TimeInterval = 1200
     public static let graduatingIntervalDays: Double = 1
     public static let easyIntervalDays: Double = 4
     /// Fixed early review intervals (days): a young card comes back at 1, then 3,
@@ -125,7 +133,9 @@ public enum SM2 {
         case .good:
             let next = s.learningStep + 1
             if next >= steps.count {
-                s = graduate(s, now: now, interval: relapse ? max(1, s.intervalDays) : graduatingIntervalDays)
+                // A relapsed word restarts the day ladder at 1 day — returning it
+                // to half its old interval sent just-forgotten words days away.
+                s = graduate(s, now: now, interval: graduatingIntervalDays)
             } else {
                 s.learningStep = next
                 s.due = now.addingTimeInterval(steps[next])
@@ -176,6 +186,7 @@ public enum SM2 {
         guard let due = next.due else { return "—" }
         let seconds = due.timeIntervalSince(now)
         if seconds < 3600 { return "\(max(1, Int(seconds / 60)))m" }
+        if seconds < 86400 * 0.75 { return "\(max(1, Int((seconds / 3600).rounded())))h" }
         if seconds < 86400 * 1.5 { return "1d" }
         let days = seconds / 86400
         if days < 30 { return "\(Int(days.rounded()))d" }
