@@ -60,7 +60,7 @@ struct FlashcardsView: View {
             if scopeFlaggedTotal > 0 {
                 VStack(spacing: 3) {
                     Label(scopeFlaggedServed < scopeFlaggedTotal
-                          ? "\(scopeFlaggedTotal) flagged · resuming with \(scopeFlaggedServed) not yet drilled this round"
+                          ? "\(scopeFlaggedTotal) flagged · next \(scopeFlaggedServed) in this session"
                           : "\(scopeFlaggedTotal) flagged — up first",
                           systemImage: "flag.fill")
                         .font(.callout)

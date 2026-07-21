@@ -55,8 +55,9 @@ final class AppState: ObservableObject {
         return words(for: scope).reduce(0) { $0 + (flagged.contains($1.word) ? 1 : 0) }
     }
 
-    /// Flagged words in this scope a new session will actually serve: the ones not
-    /// yet drilled in the current pass (or the full set again once a pass finishes).
+    /// Flagged words in this scope a new session will actually serve: one batch
+    /// of the ones not yet drilled in the current pass (or of the full set again
+    /// once a pass finishes).
     func flaggedToDrill(scope: DeckScope) -> Int {
         let flagged = Set(progress.priorityWords)
         guard !flagged.isEmpty else { return 0 }
@@ -64,7 +65,8 @@ final class AppState: ObservableObject {
         guard !scopeFlagged.isEmpty else { return 0 }
         let done = Set(progress.priorityDoneWords)
         let remaining = scopeFlagged.filter { !done.contains($0.word) }.count
-        return remaining == 0 ? scopeFlagged.count : remaining
+        return min(StudySession.flaggedPerSession,
+                   remaining == 0 ? scopeFlagged.count : remaining)
     }
 
     /// The flagged/marked words as full entries (missed in a test or marked by hand).

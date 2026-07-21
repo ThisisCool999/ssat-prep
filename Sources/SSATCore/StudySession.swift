@@ -5,6 +5,11 @@ import Foundation
 /// during learning come back within the same session once their short
 /// learning step elapses (or immediately if nothing else is waiting).
 public final class StudySession {
+    /// Flagged words served per session. A big flag backlog used to interleave
+    /// wholesale into one enormous queue (hours per cycle); batches keep sessions
+    /// tight while the drilled-pass tracking still covers the backlog over time.
+    public static let flaggedPerSession = 20
+
     public private(set) var queue: [VocabWord]
     public private(set) var completed: Int = 0
     public private(set) var againCount: Int = 0
@@ -26,8 +31,10 @@ public final class StudySession {
             store.resetPriorityPass()
             priorityQueue = flaggedInScope
         }
-        // Shuffle so a session isn't always the earliest word in list order.
+        // Shuffle so a session isn't always the earliest word in list order,
+        // then take one batch — the rest of the pass continues next session.
         priorityQueue.shuffle()
+        priorityQueue = Array(priorityQueue.prefix(Self.flaggedPerSession))
 
         var learning: [(VocabWord, Date)] = []
         var review: [(VocabWord, Date)] = []
@@ -124,9 +131,14 @@ public final class StudySession {
     /// the session doesn't end with a card 3 minutes from ready.
     private func promote(now: Date) {
         waiting.sort { $0.due < $1.due }
+        // Elapsed step cards cut to the FRONT: their recall is time-critical.
+        // Appended to the back of a long queue, a "10 minute" word would really
+        // return after 10 minutes plus every other card in line.
+        var ready: [VocabWord] = []
         while let first = waiting.first, first.due <= now {
-            queue.append(waiting.removeFirst().word)
+            ready.append(waiting.removeFirst().word)
         }
+        queue.insert(contentsOf: ready, at: 0)
         while queue.isEmpty, let first = waiting.first,
               first.due <= now.addingTimeInterval(SM2.learnAheadSeconds) {
             queue.append(waiting.removeFirst().word)

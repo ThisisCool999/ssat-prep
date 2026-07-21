@@ -294,6 +294,28 @@ final class StudySessionTests: XCTestCase {
         XCTAssertEqual(session.current?.word, first)
     }
 
+    func testElapsedStepCardCutsToFrontOfQueue() {
+        let store = freshStore()
+        let t0 = Date()
+        let session = StudySession(words: makeWords(5), store: store, newLimit: 5, now: t0)
+        let first = session.current!.word
+        session.answer(.good, now: t0)   // → 10-minute step
+        // Answer the next card after the step has elapsed: the step card must
+        // preempt the queue, not wait behind the three unseen cards.
+        session.answer(.good, now: t0.addingTimeInterval(601))
+        XCTAssertEqual(session.current?.word, first,
+                       "an elapsed step card is served on time, ahead of the line")
+    }
+
+    func testFlaggedServedInBatchesPerSession() {
+        let store = freshStore()
+        let words = makeWords(30)
+        store.flagPriority(words.map { $0.word })
+        let session = StudySession(words: words, store: store, newLimit: 0)
+        XCTAssertEqual(session.remaining, StudySession.flaggedPerSession,
+                       "one batch per session, not the whole backlog")
+    }
+
     func testMidStepWordsNotStrandedAcrossSessions() {
         let store = freshStore()
         let t0 = Date()
